@@ -1,0 +1,53 @@
+body{
+    font-family: 'Lucida Console';
+    background-color: #06090E;
+    color: #99BAC1;
+}
+
+.jumbotron{
+    background-color: #00373F;
+    text-align: center;
+}
+
+.navbar-inverse .navbar-nav .nav-link{
+    color: #99bac1;
+}
+
+#spacer{
+    border-style: solid;
+    border-width: 0px 0px 10px 0px;
+    border-color: #001E27;
+    height: 0em;
+}
+
+.nav-link:hover{
+    border-style: solid;
+    border-width: 0 0 2 0;
+    border-color: #00373F;
+}
+
+.navbar-inverse .navbar-nav .nav-link:hover {
+    color: white;
+    border-style: solid;
+    border-width: 0 0 4 0;
+    border-color: #00373F;
+}
+
+.card-inverse{
+    margin: 1em;
+    padding: 1em;
+    background-color: #00373F;
+    max-width: 20em;
+}
+
+footer{
+    border-style: solid;
+    border-width: 10px 0px 0px 0px;
+    border-color: #001E27;
+}
+
+.breadcrumb{
+    background-color: #06090E;
+    color: #99BAC1;
+    margin-bottom: 0;
+}
