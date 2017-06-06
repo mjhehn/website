@@ -1,5 +1,6 @@
+
 body{
-    font-family: 'Lucida Console';
+    font-family: 'PT Mono', monospace;
     background-color: #06090E;
     color: #99BAC1;
     margin-left: auto;
@@ -13,6 +14,7 @@ body{
 .jumbotron{
     background-color: #00373F;
     text-align: center;
+
 }
 
 .navbar-inverse .navbar-nav .nav-link{
@@ -56,8 +58,6 @@ fallback:navbar{
     border-color: #00373F;
 }
 
-
-
 .card-inverse{
     margin: 1em;
     padding: 1em;
@@ -66,11 +66,16 @@ fallback:navbar{
 }
 
 footer{
+    z-index: 8999;
+    position: relative;
     background: rgba(6, 9, 14, .80); 
     border-style: solid;
-    border-width: 0.5em 0 0 0;
+    border-width: 0.7em 0 0 0;
     border-color: #001E27;
     height: 4em;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .breadcrumb{

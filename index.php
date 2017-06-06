@@ -1,5 +1,5 @@
 <?php
-$pageName="Matt's Alcove - Home";
+$pageName="Matt's Alcove";
 include('./common/header.php');
 ?>
     

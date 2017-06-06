@@ -1,7 +1,7 @@
 <br><br><br>
 </body>
 <footer>
-<span style="float:right; padding-right: 1em"><ol class="breadcrumb">&copy;2017 Matt Hehn</ol></span>
+<span style="float:right; padding-right: 1em"><ol class="breadcrumb">&copy; 2017 Matt Hehn</ol></span>
 <span style="float:right; padding-right: 1em"><ol class="breadcrumb">Icons for github, social media/whatever</ol></span>
 <ol class="breadcrumb">
   <?php
