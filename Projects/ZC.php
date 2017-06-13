@@ -1,5 +1,5 @@
 <?php
-$pageName="Project JPTR - Matt's Alcove ";
+$pageName="Zombie City Scenario Generator - Matt's Alcove ";
 include('../common/header.php');
 ?>
 

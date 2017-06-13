@@ -2,40 +2,33 @@
 $pageName="Matt's Alcove";
 include('./common/header.php');
 ?>
-    
-    <div class="jumbotron jumbotron-fluid">
+    <!--<div class="jumbotron jumbotron-fluid">
         <h1 class ="display-3">Matt's Alcove</h1>
-        <p class="lead">Random text here for the sake of having it</p>
-    </div>
+        <p class="lead">{ insert something clever and witty }</p>
+    </div>-->
+    <br><br>
 
-    <div class="row" style="margin: 1em;">
-        <div class="offset-sm-1"></div> 
-        <div class="col-sm-5">
+    <div class="row" style="margin: .5em; text-align: right;">
+        <div class="col-md-5 offset-md-1 flex-md-last flex-xs-first">
+            <br><br><br><h2>I'm Matt Hehn</h2><br><h4> Soon-to-be holder of a Bachelors of Science in <br> <a href="https://www.cs.colostate.edu/cstop/csacademics/csdegrees/csbachelors/hccmajor.php">Applied Computing Technology, with a concentration in Human-Centric Computing</a>.<h4>
+            <h5>A student of UX design and research.</h5>
+        </div> 
+        <div class="offset-md-1 col-md-4 offset-md-1 flex-md-first flex-xs-last">
             <a href="http://placeholder.com"><img class="img-fluid" src="http://via.placeholder.com/800x800"></a>
         </div>            
-        <div class="offset-sm-1"></div>
-        <div class="col-sm-4">
-            <p>Qui harum voluptatem fugiat ducimus quaerat. Omnis velit ea cum autem mollitia praesentium nemo. Quis aut error sit sit. Eligendi dolorem iste iste dolorum quaerat autem. Rerum neque repellendus qui asperiores eligendi occaecati possimus laboriosam. Aliquam quod atque voluptatem autem voluptatibus non.</p>
-                <p>Fugiat animi sint earum accusantium sit porro necessitatibus rerum. Assumenda sunt quae non id non alias aspernatur. Dolorem ducimus et ullam neque voluptatem expedita. Totam provident ducimus eius ad illo. Quibusdam temporibus voluptatem qui molestiae quo assumenda. Voluptas dicta ea tempore error unde.</p>
-                <p>Consequuntur qui dignissimos molestiae. Sunt animi qui velit quis ipsam inventore numquam reiciendis. Aliquam vel sed expedita veritatis veritatis consectetur veniam.</p>
-                <p>Sequi aut omnis vel perferendis. Dolorum atque qui voluptatem et. Sunt quia et molestiae molestiae.</p>
-                <p>Aliquid earum distinctio et harum esse voluptate animi. Incidunt fugiat recusandae atque. Aut fugit occecati libero neque et facilis aut.</p>
-        </div> 
-        <div class="offset-sm-1"></div>
+        
     </div>
-    <br>
-    <div class="row" style="margin: 1em;">
-        <div class="offset-sm-1"></div> 
-        <div class="col-sm-4">
-            <p>Qui harum voluptatem fugiat ducimus quaerat. Omnis velit ea cum autem mollitia praesentium nemo. Quis aut error sit sit. Eligendi dolorem iste iste dolorum quaerat autem. Rerum neque repellendus qui asperiores eligendi occaecati possimus laboriosam. Aliquam quod atque voluptatem autem voluptatibus non.</p>
-                <p>Fugiat animi sint earum accusantium sit porro necessitatibus rerum. Assumenda sunt quae non id non alias aspernatur. Dolorem ducimus et ullam neque voluptatem expedita. Totam provident ducimus eius ad illo. Quibusdam temporibus voluptatem qui molestiae quo assumenda. Voluptas dicta ea tempore error unde.</p>
-                <p>Consequuntur qui dignissimos molestiae. Sunt animi qui velit quis ipsam inventore numquam reiciendis. Aliquam vel sed expedita veritatis veritatis consectetur veniam.</p>
+    <div class="divider"></div>
+    </div>
+    <div class="row" style="margin: 1em; text-align: left;">
+        <div class="offset-md-1 col-md-4 offset-md-1 flex-first">
+            <br><br><br>
+            <h5>I am passionate about exploring new ideas and technologies and how they can be better used by people, or how they can convey new ideas or tell new stories.</h5>
         </div>
-        <div class="offset-sm-1"></div> 
-        <div class="col-sm-5">
+        <div class="col-md-5 offset-md-1 flex-last">
             <a href="http://placeholder.com"><img class="img-fluid" src="http://via.placeholder.com/800x400"></a>
         </div> 
-        <div class="offset-sm-1"></div>      
+   
     </div>
 
 <?php

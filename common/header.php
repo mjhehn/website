@@ -12,8 +12,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet"> 
         <?php 
-        $path = "http://localhost/MJHWebsite/";
-        $css = $path.'common/custom.css';
+        $path = "http://192.168.0.17/MJHWebsite/";
+        $css = $path.'assets/css/custom.css';
         echo '<link rel="stylesheet" href='.$css.'>';
         ?>
         
@@ -33,17 +33,28 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto"></ul>
                     <ul class="navbar-nav">
-                        <a class="nat-item nav-link" href=<?php echo $path."index.php"?>>Home</a>
+                        <a class="nav-item nav-link" href=<?php echo $path."index.php"?>>Home</a>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" id="navbarProjectDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                            <div class="dropdown-menu" aria-labelled-by="navbarProjectDropdownMenuLink">
-                                <a class="dropdown-item" href=<?php echo $path."Projects/JPTR.php"?>>Project JPTR</a>
+                            <a class="nav-link dropdown-toggle" href="" id="navbarPortfolioDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                            <div class="dropdown-menu" aria-labelled-by="navbarPortfolioDropdownMenuLink">
                                 <a class="dropdown-item" href=<?php echo $path."Projects/CS464.php"?>>CS464 Design Project</a>
+                                <a class="dropdown-item" href=<?php echo $path."Projects/FatTireVR.php"?>>Fat Tire VR</a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/CT310.php"?>>CT310 Federated Project</a>
                             </div>
                         </li>
-                        <a class="nat-item nav-link menu-item" href=<?php echo $path."About.php"?>>About</a>
-                        <a class="nat-item nav-link menu-item" href=<?php echo $path."Contact.php"?>>Contact</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarProjectDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Side Projects</a>
+                            <div class="dropdown-menu" aria-labelled-by="navbarProjectDropdownMenuLink">
+                                <a class="dropdown-item" href=<?php echo $path."Projects/JPTR.php"?>>Project JPTR</a>
+                                <a class="dropdown-item" href=<?php echo $path."Projects/ZC.php"?>>ZC Generator</a>
+                                <a class="dropdown-item" href=<?php echo $path."Projects/CombatDemo.php"?>>Turn-based Combat Prototype</a>
+                                <a class="dropdown-item" href=<?php echo $path."Projects/DungeonCrawler.php"?>>A Simple Dungeon Crawler</a>
+                                <a class="dropdown-item" href=<?php echo $path."Projects/AdventureGame.php"?>>An Unimaginitive Text Adventure</a>
+                            </div>
+                        </li>
+                        <a class="nav-item nav-link" href=<?php echo $path."About.php"?>>About</a>
+                        <a class="nav-item nav-link" href=<?php echo $path."Skills.php"?>>Skills</a>
+                        <a class="nav-item nav-link" href=<?php echo $path."Contact.php"?>>Contact</a>
                     </ul>
                 </div>
             </nav>
