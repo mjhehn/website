@@ -18,11 +18,15 @@
           ?>
     </ol>
   </div>
-    <div class="offset-sm-5 col-sm-2">
-    <ol class="breadcrumb">Icons for github, social</ol>
+
+  <div class="offset-sm-6 col-sm-1">
+    <ol class="breadcrumb">
+      <a href="mailto:arsene@protonmail.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+      <a href="https://github.com/mjhehn" alt="Matt's Github"><i class="fa fa-github fa-lg" aria-hidden="true" ></i></a> 
   </div>
   <div class="col-sm-2">
-    <ol class="breadcrumb">&copy; 2017 Matt Hehn</ol>
+    <ol class="breadcrumb">
+     &copy; 2017 Matt Hehn</ol>
   </div>
 
 </div>
