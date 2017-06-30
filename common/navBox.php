@@ -82,3 +82,9 @@
             <a class="sideMailButton" href="mailto:arsene@protonmail.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
             <a class="sideGithubButton" href="https://github.com/mjhehn" alt="Matt's Github"><i class="fa fa-github fa-lg" aria-hidden="true" ></i></a> 
             <button class="menu-button" id="open-button" alt="open menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+
+            <script>
+                $('#funAccordion').focus(function () {
+                    $('#funAccordion').collapse('toggle');
+                });
+            </script>
