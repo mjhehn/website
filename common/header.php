@@ -24,7 +24,6 @@
         <link rel="manifest" href=<?php echo $path."manifest.json"?>>
         <link rel="mask-icon" href=<?php echo $path."safari-pinned-tab.svg"?> color="#5bbad5">
         <meta name="theme-color" content="#ffffff">
-
         <title><?php echo $pageName ?></title>
             <nav class="navbar navbar-toggleable-md navbar-inverse">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,5 +60,4 @@
             </nav>
         </head>
     <body>
-        <div id="navbarSpacer"></div>
   

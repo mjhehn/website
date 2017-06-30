@@ -1,6 +1,6 @@
 <?php
 $pageName="About - Matt's Alcove ";
-include('./common/header.php');
+include('./common/navBox.php');
 ?>
 Basically coverletter, generic stuff
 

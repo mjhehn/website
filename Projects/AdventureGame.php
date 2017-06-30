@@ -1,6 +1,6 @@
 <?php
 $pageName="Text Adventure - Matt's Alcove ";
-include('../common/header.php');
+include('../common/navBox.php');
 ?>
 
 <div class="row" style="margin: .5em; text-align: center;">
