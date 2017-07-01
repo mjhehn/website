@@ -1,6 +1,6 @@
 <?php
 $pageName="Zombie City Scenario Generator - Matt's Alcove ";
-include('../common/header.php');
+include('../common/navBox.php');
 ?>
 
 

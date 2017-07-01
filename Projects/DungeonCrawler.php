@@ -1,6 +1,6 @@
 <?php
 $pageName="Basic Dungeon Crawler - Matt's Alcove ";
-include('../common/header.php');
+include('../common/navBox.php');
 ?>
 
 

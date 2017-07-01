@@ -17,6 +17,8 @@ html, body, .container, .content-wrap{
 }
 
 .content{
+    padding-top: 2em;
+    padding-bottom: 2em;
 	margin-left: 15%;
     position: relative;
     background: #06090E;
@@ -122,13 +124,7 @@ html, body, .container, .content-wrap{
     text-align: center;
 }
 
-.divider{
-    background-color: #001e27;
-    height: 10em;
-    width: 100%;
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
+
 
 .fa-lg, fa, a.dropdown-item, a.nav-link{
     color: #99BAC1;
@@ -170,7 +166,18 @@ a.accordionButton:focus{
 }
 
 
-.footer{
-    margin: 10em;
+
+/*End of Header*/
+
+.row{
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
+.divider{
+    background-color: #001e27;
+    height: 10em;
+    width: 100%;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}

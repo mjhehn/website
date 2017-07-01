@@ -1,6 +1,6 @@
 <?php
 $pageName="Combat Demo - Matt's Alcove ";
-include('../common/header.php');
+include('../common/navBox.php');
 ?>
 
 

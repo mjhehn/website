@@ -1,6 +1,6 @@
 <?php
 $pageName="Project JPTR - Matt's Alcove ";
-include('../common/header.php');
+include('../common/navBox.php');
 ?>
 
 <?php

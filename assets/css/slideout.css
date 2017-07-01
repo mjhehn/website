@@ -19,10 +19,12 @@ html, body, .container, .content-wrap{
 }
 
 .content{
+	padding-top: 2em;
+	padding-bottom: 2em;
     position: relative;
     background: #06090E;
-		margin-left: 3.75em;
-		margin-right: 0.25em;
+	margin-left: 3.75em;
+	margin-right: 0.25em;
 }
 
 .content::before{
@@ -154,7 +156,7 @@ html, body, .container, .content-wrap{
 	position: absolute;
 	z-index: 1001;
 	width: 15%;
-	min-width: 14em;
+	min-width: 16em;
 	height: 100%;
 	background: #001e27;
 	padding: 1% 0 1% 0;
@@ -295,13 +297,6 @@ html, body, .container, .content-wrap{
     text-align: center;
 }
 
-.divider{
-    background-color: #001e27;
-    height: 10em;
-    width: 100%;
-    margin-top: 3em;
-    margin-bottom: 3em;
-}
 
 .fa-lg, fa, a.dropdown-item, a.nav-link{
     color: #99BAC1;
@@ -340,16 +335,18 @@ a.accordionButton:focus{
     width: 100%;
 }
 
-/*.sidebarLabel{
-    color: darkgray;
-    text-align: left;
-    margin-left: 1.25em;
-    font-size: 0.8em;
-}
-hr {
-    border: 0;
-    border-top: 1px solid darkgray;
-    margin-top: 2px;
-    margin-bottom: 8px;
-}*/
+/*End of Header*/
 
+.row{
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+
+.divider{
+    background-color: #001e27;
+    height: 10em;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

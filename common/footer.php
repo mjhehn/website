@@ -7,4 +7,4 @@
 </body>
 <footer>
 </footer>
-</div>
+</div> <!--IMPORTANT the container div end. -->

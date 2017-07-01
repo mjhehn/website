@@ -1,6 +1,6 @@
 <?php
 $pageName="Academic Contextual Design Project - Matt's Alcove ";
-include('../common/header.php');
+include('../common/navBox.php');
 ?>
 
 

@@ -1,6 +1,6 @@
 <?php
 $pageName="CSU VR Hackathon Entry: Fat Tire - Matt's Alcove ";
-include('../common/header.php');
+include('../common/navBox.php');
 ?>
 
 
