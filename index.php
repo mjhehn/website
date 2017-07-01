@@ -2,10 +2,9 @@
 $pageName="Matt's Alcove";
 include('./common/navBox.php');
 ?>
-<br><br><br><br>
 <div class="content-wrap">
     <div class="content">
-        <div class="row" style="margin: .5em; text-align: right;">
+        <div class="row" style="text-align: right;">
             <div class="col-md-6 offset-md-1 flex-md-last flex-xs-first">
                 <div class="row">
                     <div class="col-8 offset-2">

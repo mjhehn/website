@@ -63,19 +63,16 @@
                         <a class="nav-link" href=<?php echo $path."Resume.php"?>>Resume <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
                         <a class="nav-link" href=<?php echo $path."Blog.php"?>>Blog <i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
                         <a class="nav-link" href=<?php echo $path."Contact.php"?>>Contact <i class="fa fa-user" aria-hidden="true"></i></a>
-                        <br>
-                        <br>
-                        <br>
                     </ul>
                     
                 </nav>
                 <div class="miniFooter">
-                    <div class="minifooterContent">
-                        <a href="mailto:arsene@protonmail.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
-                        <a href="https://github.com/mjhehn" alt="Matt's Github"><i class="fa fa-github fa-lg" aria-hidden="true" ></i></a> 
-                        <small>&nbsp &copy; 2017 Matt Hehn</small>
+                        <div class="minifooterContent">
+                            <a href="mailto:arsene@protonmail.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+                            <a href="https://github.com/mjhehn" alt="Matt's Github"><i class="fa fa-github fa-lg" aria-hidden="true" ></i></a> 
+                            <small>&nbsp &copy; 2017 Matt Hehn</small>
+                        </div>
                     </div>
-                </div>
                 <button class="close-button" id="close-button">Close Menu</button>
             </div>
             <div class="spacer"></div>
