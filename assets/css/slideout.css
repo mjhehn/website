@@ -16,7 +16,7 @@ html, body, .container, .content-wrap {
   padding-bottom: 2em;
   position: relative;
   background: #06090E;
-  margin-left: 3.75em;
+  margin-left: 3.5em;
   margin-right: 0.25em; }
   .content::before {
     position: absolute;
@@ -120,8 +120,7 @@ html, body, .container, .content-wrap {
 .menu-wrap {
   position: absolute;
   z-index: 1001;
-  width: 15%;
-  min-width: 9em;
+  width: 15em;
   height: 100%;
   background: #001e27;
   padding: 1% 0 1% 0;
@@ -137,6 +136,10 @@ html, body, .container, .content-wrap {
     .menu-wrap a:hover, .menu-wrap a:focus {
       color: white;
       background: none; }
+    .menu-wrap a:active {
+      color: white;
+      background: #486D75;
+      width: 100%; }
 
 menu,
 .menu-list {
@@ -260,9 +263,14 @@ a.dropdown-item {
   padding-right: 2em;
   background: #00373F;
   text-align: right; }
-  a.dropdown-item :hover {
+  a.dropdown-item:hover {
     color: white;
     background: #00373F;
+    width: 100%;
+    border-left: 0.2em solid white; }
+  a.dropdown-item:active {
+    color: white;
+    background: #486D75;
     width: 100%; }
 
 .collapse {

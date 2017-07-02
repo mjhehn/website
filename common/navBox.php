@@ -18,7 +18,8 @@
         $cssSmall = $path.'assets/css/slideout.css';
         $cssLarge = $path.'assets/css/sidebar.css';
         echo '<link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 991px)" href="'.$cssSmall.'">';
-        echo '<link rel="stylesheet" media="screen and (min-width: 992px)" href="'.$cssLarge.'">';
+        echo '<link rel="stylesheet" media="screen and (min-width: 992px) and (orientation: landscape)" href="'.$cssLarge.'">';
+		echo '<link rel="stylesheet" media="screen and (min-width: 992px) and (orientation: portrait)" href="'.$cssSmall.'">';
         ?>
 
         

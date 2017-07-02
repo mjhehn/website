@@ -4,8 +4,8 @@ $backgroundColor: #06090E;
 $accentColor: #001e27;
 $accentColor2: #00373F;
 $accentColor3: #486D75;
-$navPanelWidth: 15%;
-$navPanelMinWidth: 9em;
+$navPanelWidth: 15em;
+$sidebarCollapsedWidth: 3.5em;
 
 html, body, .container, .content-wrap {
     font: 100% $fontStack;
@@ -27,7 +27,7 @@ html, body, .container, .content-wrap {
 	padding-bottom: 2em;
     position: relative;
     background: $backgroundColor;
-	margin-left: 3.75em;
+	margin-left: $sidebarCollapsedWidth;
 	margin-right: 0.25em;
 
     &::before{
@@ -139,7 +139,7 @@ html, body, .container, .content-wrap {
     top:0;
     left: 0;
     height: 100%;
-    width: 3.5em;
+    width: $sidebarCollapsedWidth;
     background: $accentColor;
     z-index: 999;
 }
@@ -149,7 +149,6 @@ html, body, .container, .content-wrap {
 	position: absolute;
 	z-index: 1001;
 	width: $navPanelWidth;
-	min-width: $navPanelMinWidth;
 	height: 100%;
 	background: $accentColor;
 	padding: 1% 0 1% 0;
@@ -168,6 +167,11 @@ html, body, .container, .content-wrap {
             	color: white;
                 background: none;
         }
+		&:active{
+			color: white;
+			background: $accentColor3;
+			width: 100%;
+		}
     }
 }
 
@@ -320,11 +324,18 @@ a.dropdown-item{
     background: $accentColor2;
     text-align: right;
 
-    :hover{
+    &:hover{
         color:white;
         background: $accentColor2;
         width: 100%;
+		border-left: 0.2em solid white;
     }
+
+	&:active{
+		color: white;
+        background: $accentColor3;
+        width: 100%;
+	}
 }
 
 .collapse{

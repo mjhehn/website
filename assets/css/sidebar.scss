@@ -1,0 +1,196 @@
+$fontStack: 'PT Mono', monospace;
+$fontColor: #99BAC1;
+$backgroundColor: #06090E;
+$accentColor: #001e27;
+$accentColor2: #00373F;
+$accentColor3: #486D75;
+$navPanelWidth: 15em;
+
+
+html, body, .container, .content-wrap {
+    font: 100% $fontStack;
+    color: $fontColor;
+    background-color: $backgroundColor;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.content-wrap{
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.content{
+	padding-top: 2em;
+	padding-bottom: 2em;
+    position: relative;
+    background: $backgroundColor;
+	margin-left: 15em;
+
+    &::before{
+		position: absolute;
+		top: 0;
+		left:0;
+		z-index: 10;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
+		content: '';
+		opacity: 0;
+	}
+}
+
+/* buttons */
+.menu-button, .close-button, .sideGithubButton, .sideMailButton {
+	display: none;
+}
+
+.spacer{
+    display: none;
+}
+
+/* Menu */
+.menu-wrap {
+	position: absolute;
+	z-index: 1001;
+	width: $navPanelWidth;
+	height: 100%;
+	background: $accentColor;
+	padding: 1% 0 1% 0;
+	font-size: 1.15em;
+
+    a {
+        color: #b8b7ad;
+
+        &:hover, &:focus{
+            	color: white;
+                background: none;
+        }
+		&:active{
+			color: white;
+			background: $accentColor3;
+			width: 100%;
+		}
+    }
+}
+
+menu,
+.menu-list {
+    text-align: center;
+    overflow: hidden;
+}
+
+.menu{
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.menu-list {
+    text-align: center;
+	height: 70%;
+	min-height: 9em;
+    padding-left: 0;
+	padding-bottom: 1.5em;
+	overflow-x: hidden;
+
+    a {
+        display: block;
+    	text-align: center;
+    }
+}
+
+.image-container{/*center the image*/
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: .8em;
+}
+
+.miniFooter{
+    position: absolute;
+    bottom:0;
+    left:0;
+    height: 5%;
+	min-height: 3em;
+    width: 100%;
+    margin-left: auto;
+	margin-right: auto;
+    background: $accentColor;
+    border-style: solid;
+    border-color: $fontColor;
+    border-width: 0.1em 0 0 0;
+	overflow: visible;
+}
+.miniFooterContent{
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fa-lg, fa, a.dropdown-item, a.nav-link{
+    color: $fontColor
+}
+
+.fa:hover, a.nav-link:hover{
+    color:white;
+}
+
+a.accordionButton{
+    cursor: pointer;
+
+    &:focus{
+        color: white;
+        background: $accentColor3;
+        width: 100%;
+    }
+}
+
+a.dropdown-item{
+    padding: 0.5em;
+    padding-right: 2em;
+    background: $accentColor2;
+    text-align: right;
+
+    &:hover{
+        color:white;
+        background: $accentColor2;
+        width: 100%;
+		border-left: 0.2em solid white;
+    }
+
+	&:active{
+		color: white;
+        background: $accentColor3;
+        width: 100%;
+	}
+}
+
+.collapse{
+    color: $fontColor;
+    background: none;
+    width: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*End of Header*/
+
+.row{
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+
+.divider{
+    background-color: $accentColor;
+    height: 10em;
+    width: 100%;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
