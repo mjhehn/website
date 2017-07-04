@@ -42,16 +42,16 @@
                         </a>
                     </div>
                     <ul class='menu-list'>
-                        <div class="accordion" id="accordionParent">
+                        <div class="accordion" id="accordionParent" role="tablist" aria-multiselectable="true">
                             <!-- <div class="sidebarLabel">Projects</div>
                             <hr /> -->
-                            <a class="accordionButton nav-link" id="academiaAccordion" role="tablist" href="#academiaCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Academia <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                            <div class="collapse" id="academiaCollapse">
+                            <a class="accordionButton" id="academiaAccordion" role="tab" href="#academiaCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Academia <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <div class="collapse" role="tabPanel" id="academiaCollapse" aria-labelled-by="academiaAccordion">
                                 <a class="dropdown-item" href=<?php echo $path."Projects/CS464.php"?>>CS464 UX Design <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/FatTireVR.php"?>>Fat Tire VR <i class="fa fa-code" aria-hidden="true"></i> </a>
                             </div>
-                            <a class="accordionButton nav-link" id="funAccordion" role="tablist" href="#funCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Fun <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                            <div class="collapse" id="funCollapse">
+                            <a class="accordionButton" id="funAccordion" role="tab" href="#funCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Fun <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                            <div class="collapse" role="tabpanel" id="funCollapse" aria-labelled-by="funAccordion">
                                 <a class="dropdown-item" href=<?php echo $path."Projects/JPTR.php"?>>Project JPTR <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/ZC.php"?>>ZC Generator <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/CombatDemo.php"?>>Turn-based Combat <i class="fa fa-code" aria-hidden="true"></i> </a>

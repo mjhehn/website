@@ -4,6 +4,7 @@ $backgroundColor: #06090E;
 $accentColor: #001e27;
 $accentColor2: #00373F;
 $accentColor3: #486D75;
+$hoverColor: white;
 $navPanelWidth: 15em;
 $sidebarCollapsedWidth: 3.5em;
 
@@ -179,11 +180,11 @@ html, body, .container, .content-wrap {
         color: #b8b7ad;
 
         &:hover, &:focus{
-            	color: white;
+            	color: $hoverColor;
                 background: none;
         }
 		&:active{
-			color: white;
+			color: $hoverColor;
 			background: $accentColor3;
 			width: 100%;
 		}
@@ -193,7 +194,6 @@ html, body, .container, .content-wrap {
 menu,
 .menu-list {
 	height: 100%;
-    text-align: center;
 
     a {
         -webkit-transition: -webkit-transform 0s 0.4s;
@@ -213,8 +213,7 @@ menu,
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
     text-align: center;
-	height: 70%;
-	min-height: 9em;
+	height: 23em;
     padding-left: 0;
 	padding-bottom: 1.5em;
 
@@ -286,10 +285,11 @@ menu,
 	transform: translate3d(0,0,0);
 }
 
+/*Begin common parts*/
 .image-container{/*center the image*/
     display: flex;
     justify-content: center;
-    padding-top: 5em;
+    padding-top: 20%;
     padding-bottom: .8em;
 }
 
@@ -315,21 +315,38 @@ menu,
     text-align: center;
 }
 
-.fa-lg, fa, a.dropdown-item, a.nav-link{
+a > .fa{
+    display: inline;
+}
+
+.fa-lg, .fa, a.dropdown-item, a.nav-link{
     color: $fontColor
 }
 
-.fa:hover, a.nav-link:hover{
-    color:white;
+.fa:hover{
+    color: $hoverColor;
 }
 
 a.accordionButton{
     cursor: pointer;
+     color: $fontColor;
+    text-align: center;
+    padding: .5em 1em;
+    text-decoration: none;
 
-    &:focus{
-        color: white;
-        background: $accentColor3;
+    &:focus .fa, &:hover .fa {
+        color:$hoverColor;
+    }
+}
+
+a.nav-link{
+    &:hover, &:focus{
+        color:$hoverColor;
         width: 100%;
+    }
+
+    &:focus .fa, &:hover .fa {
+        color:$hoverColor;
     }
 }
 
@@ -339,15 +356,20 @@ a.dropdown-item{
     background: $accentColor2;
     text-align: right;
 
-    &:hover{
-        color:white;
+     &:hover, &:focus{
+        color:$hoverColor;
         background: $accentColor2;
         width: 100%;
-		border-left: 0.2em solid white;
+		border-left: 0.2em solid $hoverColor;
+        text-decoration: underline;
+    }
+
+    &:focus .fa, &:hover .fa {
+        color:$hoverColor;
     }
 
 	&:active{
-		color: white;
+		color: $hoverColor;
         background: $accentColor3;
         width: 100%;
 	}
@@ -357,6 +379,9 @@ a.dropdown-item{
     color: $fontColor;
     background: none;
     width: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 /*End of Header*/
@@ -371,7 +396,7 @@ a.dropdown-item{
     background-color: $accentColor;
     height: 10em;
     width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 6em;
+    margin-bottom: 6em;
 }
 
