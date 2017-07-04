@@ -76,10 +76,13 @@
                     </div>
                 <button class="close-button" id="close-button">Close Menu</button>
             </div>
+            <!--Begin icon menu -->
             <div class="spacer"></div>
-            <a class="sideMailButton" href="mailto:arsene@protonmail.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
-            <a class="sideGithubButton" href="https://github.com/mjhehn" alt="Matt's Github"><i class="fa fa-github fa-lg" aria-hidden="true" ></i></a> 
-            <button class="menu-button" id="open-button" alt="open menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+            <button class="menu-button" id="open-button" alt="open menu" title="Menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+            <a class="sideResumeButton" href="Resume.php" alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>
+            <a class="sideBlogButton" href="Blog.php" alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a> 
+            <a class="sideContactButton" href="Contact.php" alt="Contact Matt" title="Contact"><i class="fa fa-user fa-lg" aria-hidden="true" alt="Contact Matt"></i></a>
+            
 
             <script>
                 $('#funAccordion').focus(function () {

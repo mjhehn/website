@@ -81,10 +81,11 @@ html, body, .container, .content-wrap {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg); }
 
-.sideMailButton {
+/*Buttons for the sidebar with menu*/
+.sideResumeButton {
   position: fixed;
-  top: 4.15em;
-  left: 0.5em;
+  top: 2.35em;
+  left: 0.7em;
   z-index: 1000;
   margin: 0;
   padding: 0;
@@ -94,10 +95,23 @@ html, body, .container, .content-wrap {
   background: transparent;
   opacity: 0.8; }
 
-.sideGithubButton {
+.sideBlogButton {
   position: fixed;
-  top: 2.35em;
+  top: 4.15em;
   left: 0.575em;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.5em;
+  color: #99BAC1;
+  background: transparent;
+  opacity: 0.8; }
+
+.sideContactButton {
+  position: fixed;
+  bottom: .75em;
+  left: 0.68em;
   z-index: 1000;
   margin: 0;
   padding: 0;
