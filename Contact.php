@@ -1,5 +1,6 @@
 <?php
 $pageName="Contact - Matt's Alcove ";
+require('./common/config.php');
 include('./common/navBox.php');
 ?>
 <div class="content-wrap">

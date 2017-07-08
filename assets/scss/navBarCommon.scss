@@ -1,0 +1,98 @@
+@import 'navBarConfig';
+
+.image-container{/*center the image*/
+    display: flex;
+    justify-content: center;
+    padding-top: 45%;
+    padding-bottom: .8em;
+}
+
+.miniFooter{
+    position: absolute;
+    bottom:0;
+    left:0;
+    height: 5%;
+	min-height: 3em;
+    width: 100%;
+    margin-left: auto;
+	margin-right: auto;
+    background: $accentColor;
+    border-style: solid;
+    border-color: $fontColor;
+    border-width: 0.1em 0 0 0;
+	overflow: visible;
+}
+.miniFooterContent{
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+a > .fa{
+    display: inline;
+}
+
+.fa-lg, .fa, a.dropdown-item, a.nav-link{
+    color: $fontColor
+}
+
+
+a.accordionButton{
+    cursor: pointer;
+    color: $fontColor;
+    text-align: center;
+    padding: .5em 1em;
+    text-decoration: none;
+
+    &:focus .fa, &:hover .fa {
+        color:$hoverColor;
+    }
+}
+
+a.nav-link{
+    &:hover, &:focus{
+        color:$hoverColor;
+        width: 100%;
+    }
+
+    &:focus .fa, &:hover .fa {
+        color:$hoverColor;
+    }
+}
+
+a.dropdown-item{
+    padding: 0.5em;
+    padding-right: 2em;
+    background: $accentColor2;
+    text-align: right;
+
+    &:hover, &:focus{
+        color:$hoverColor;
+        background: $accentColor2;
+        width: 100%;
+		border-left: 0.2em solid $hoverColor;
+        text-decoration: underline;
+    }
+
+    &:focus .fa, &:hover .fa {
+        color:$hoverColor;
+    }
+
+	&:active{
+		color: $hoverColor;
+        background: $accentColor3;
+        width: 100%;
+	}
+}
+
+.collapse{
+    color: $fontColor;
+    background: none;
+    width: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*End of Header*/

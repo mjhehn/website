@@ -1,0 +1,97 @@
+@import 'navBarConfig';
+
+html, body, .container, .content-wrap {
+    font: 100% $fontStack;
+    color: $fontColor;
+    background-color: $backgroundColor;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.content-wrap{
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+	margin-left: $navPanelWidth;
+	margin-right: 1rem;
+	width: calc(100% - #{$navPanelWidth})
+}
+
+.content{
+    position: relative;
+    background: $backgroundColor;
+
+    &::before{
+		position: absolute;
+		top: 0;
+		left:0;
+		z-index: 10;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.5);
+		content: '';
+		opacity: 0;
+	}
+}
+
+/* buttons */
+.menu-button, .close-button, .sideResumeButton, .sideBlogButton, .sideContactButton {
+	display: none;
+	visibility: hidden;
+}
+
+.spacer{
+    display: none;
+}
+
+/* Menu */
+.menu-wrap {
+	position: absolute;
+	z-index: 1001;
+	width: $navPanelWidth;
+	height: 100%;
+	background: $accentColor;
+	padding: 1% 0 1% 0;
+	font-size: 1.15em;
+
+    a {
+        &:hover, &:focus{
+            	color: $hoverColor;
+                background: none;
+        }
+		&:active{
+			color: $hoverColor;
+			background: $accentColor3;
+			width: 100%;
+		}
+    }
+}
+
+menu,
+.menu-list {
+    overflow: hidden;
+}
+
+.menu{
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.menu-list {
+	height: 23em;
+	min-height: 9em;
+    padding-left: 0;
+	padding-bottom: 1.5em;
+	overflow-x: hidden;
+
+    a {
+        display: block;
+    	text-align: center;
+    }
+}
+
+/*Begin common parts*/
+@import 'navBarCommon';
+@import 'common'

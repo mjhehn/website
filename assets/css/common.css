@@ -1,0 +1,69 @@
+/* line 3, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.row {
+  padding: 1rem; }
+
+/* line 8, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.divider {
+  background-color: #001e27;
+  height: 10em;
+  width: 100%;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  padding-lefT: 0; }
+
+/* line 17, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.blog {
+  padding: 0rem; }
+
+/* line 21, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.post {
+  text-align: left;
+  margin-bottom: 5rem; }
+  /* line 24, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  .post .postHeader {
+    color: #99BAC1;
+    background: #00373F;
+    border-bottom: 0.2rem solid #99BAC1;
+    width: 100%;
+    padding: 1.5rem 0 0.25rem 0; }
+    /* line 31, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    .post .postHeader .postTitle {
+      display: inline;
+      font-size: 2rem;
+      margin-left: 1rem; }
+    /* line 37, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    .post .postHeader .postDate {
+      display: inline;
+      font-size: 0.9rem;
+      margin-left: 3rem; }
+    /* line 43, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    .post .postHeader a {
+      color: #99BAC1; }
+  /* line 49, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  .post .postBody {
+    padding-top: .5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #99BAC1; }
+    /* line 55, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    .post .postBody p {
+      padding: 1rem; }
+    /* line 59, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    .post .postBody h1 {
+      color: purple; }
+
+/* line 69, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+p.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  background: rgba(255, 0, 0, 0.25);
+  color: white;
+  width: 100%;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+/*# sourceMappingURL=../css/common.map */

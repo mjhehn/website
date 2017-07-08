@@ -11,19 +11,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet"> 
-        <script src="https://use.fontawesome.com/a88a72f9af.js"></script>
+        <script src="https://use.fontawesome.com/a88a72f9af.js"></script>        
         
-        <?php 
-        $path = "http://192.168.0.17/MJHWebsite/";
-        $cssSmall = $path.'assets/css/slideout.css';
-        $cssLarge = $path.'assets/css/sidebar.css';
-        echo '<link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 991px)" href="'.$cssSmall.'">';
-        echo '<link rel="stylesheet" media="screen and (min-width: 992px) and (orientation: landscape)" href="'.$cssLarge.'">';
-		echo '<link rel="stylesheet" media="screen and (min-width: 992px) and (orientation: portrait)" href="'.$cssSmall.'">';
+        <?php
+            echo '<link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 991px)" href="'.$cssSmall.'">';
+            echo '<link rel="stylesheet" media="screen and (min-width: 992px) and (orientation: landscape)" href="'.$cssLarge.'">';
+            echo '<link rel="stylesheet" media="screen and (min-width: 992px) and (orientation: portrait)" href="'.$cssSmall.'">';
         ?>
-
-        
-        
         <link rel="apple-touch-icon" sizes="180x180" href=<?php echo $path."apple-touch-icon.png"?>>
         <link rel="icon" type="image/png" sizes="32x32" href=<?php echo $path."favicon-32x32.png"?>>
         <link rel="icon" type="image/png" sizes="16x16" href=<?php echo $path."favicon-16x16.png"?>>
@@ -79,9 +73,9 @@
             <!--Begin icon menu -->
             <div class="spacer"></div>
             <button class="menu-button" id="open-button" alt="open menu" title="Menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
-            <a class="sideResumeButton" href="Resume.php" alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>
-            <a class="sideBlogButton" href="Blog.php" alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a> 
-            <a class="sideContactButton" href="Contact.php" alt="Contact Matt" title="Contact"><i class="fa fa-user fa-lg" aria-hidden="true" alt="Contact Matt"></i></a>
+            <a class="sideResumeButton" href=<?php echo $path."Resume.php"?> alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>
+            <a class="sideBlogButton" href=<?php echo $path."Blog.php"?> alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a> 
+            <a class="sideContactButton" href=<?php echo $path."Contact.php"?> alt="Contact Matt" title="Contact"><i class="fa fa-user fa-lg" aria-hidden="true" alt="Contact Matt"></i></a>
             
 
             <script>

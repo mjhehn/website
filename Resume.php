@@ -1,5 +1,6 @@
 <?php
 $pageName="Resume - Matt's Alcove ";
+require('./common/config.php');
 include('./common/navBox.php');
 ?>
 
