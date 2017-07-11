@@ -1,8 +1,8 @@
 @import 'navBarConfig';
 
+//general styles*********************************************
 .row{
     padding: 1rem;
-
 }
 
 .divider{
@@ -14,6 +14,35 @@
     padding-lefT: 0;
 }
 
+p.alert{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+    background: rgba(255, 0, 0, 0.25);
+    color: white;
+    width: 100%;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p.alertGood{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10001;
+    background: rgba(0, 255, 0, 0.25);
+    color: white;
+    width: 100%;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+//blog pages***********************************************
 .blog{
    padding: 0rem;
 }
@@ -62,25 +91,7 @@
     }
 }
 
-
-
-
-
-p.alert{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10001;
-    background: rgba(255, 0, 0, 0.25);
-    color: white;
-    width: 100%;
-    height: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-//contact page
+//contact page**************************************************
 
 .contactHeader{
     padding-top: 4rem;
@@ -101,10 +112,6 @@ p.alert{
     }
 }
 
-.contactForm{
-
-}
-
 .input-group{
     padding-bottom: 2rem;
 }
@@ -120,4 +127,60 @@ p.alert{
 .btn-primary{
     background: $accentColor3;
     border-color: $backgroundColor;
+}
+
+//resume styles *************************************
+$resumeBlockHeight: 6em;
+
+.imgHeader{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -4rem;
+}
+
+.resumeHeader{
+    background: $accentColor;
+    &:active{
+        justify-content: center;
+    }
+
+    & .resumeHeaderName{
+        font-size: 3rem;
+        padding-left: 2rem;
+        text-align: right;
+    }
+
+    & .resumeHeaderLocation{
+        padding-top: 0.25rem;
+        font-size: 0.9rem;
+    }
+
+    & .resumeHeaderContact{
+        font-size: 0.9rem;
+    }
+    padding-bottom: 2rem;
+}
+
+.resumeBlock{
+    background: $accentColor;
+    height: $resumeBlockHeight;
+    padding: 1rem;
+}
+
+.firstBlock{
+    
+}
+
+.secondBlock{
+
+}
+
+.technologiesBlock{
+    width: 100%;   
+}
+
+.achievementsBlock{
+
 }

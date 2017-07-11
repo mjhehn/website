@@ -14,7 +14,7 @@ if(isset($_POST['submit']))
 
         if(mail($addressees, "matthehn.com contact: ".$contacteeName." has a message", $content))
         {
-            echo "<p class=alert>Message Sent. Redirecting to Homepage.</p>";
+            echo "<p class=alertGood>Message Sent.</p>";
             header('refresh: 3; url=./index.php');
         }
         else{

@@ -30,7 +30,7 @@
         <div class="container">
             <div class="menu-wrap">
                 <nav class="menu">
-                    <div class=image-container>
+                    <div class='image-container align-self-center justify-content-center'>
                         <a href=<?php echo $path."index.php"?>>
                             <img src=<?php echo $path."assets/img/brand.svg"?> width="100" height="100" alt="site logo & home link" title="Home">
                         </a>
@@ -83,3 +83,4 @@
                     $('#funAccordion').collapse('toggle');
                 });
             </script>
+<p class=alert>Be aware, this site is currently very much a work in progress</p>

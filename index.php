@@ -3,6 +3,7 @@ $pageName="Matt's Alcove";
 require('./common/config.php');
 include('./common/navBox.php');
 ?>
+
 <div class="content-wrap">
     <div class="content">
         <div class="row" style="text-align: right;">
@@ -15,7 +16,7 @@ include('./common/navBox.php');
                     <div class="col-2"></div><!--padding-->
                 </div>
             </div> 
-            <div class="offset-md-1 col-md-4 flex-md-first flex-xs-last">
+            <div class="offset-md-1 col-md-4 flex-md-first flex-xs-last align-self-center">
                 <a href="http://placeholder.com"><img class="img-fluid" src="http://via.placeholder.com/800x800"></a>
             </div>
         </div>
@@ -25,8 +26,8 @@ include('./common/navBox.php');
                 <br><br><br>
                 <h5>I am passionate about exploring new ideas and technologies and how they can be better used by people, or how they can convey new ideas or tell new stories.</h5>
             </div>
-            <div class="col-md-5 offset-md-1 flex-last">
-                <a href="http://placeholder.com"><img class="img-fluid" src="http://via.placeholder.com/800x400"></a>
+            <div class="col-md-5 offset-md-1 flex-last align-self-center">
+                <a href=""><img class="img-fluid" src="./assets/img/vrhack.jpg"></a>
             </div> 
         </div>
     </div>
