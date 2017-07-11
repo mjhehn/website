@@ -10,15 +10,14 @@ if(isset($_GET['post'])) 	//is there a requested post
 	if($currentPost) 	//is it a legit post name
 	{
 		//output the post from file
-		$currentPost = file_exists("posts/".$currentPost.".md");
+		$currentPost = file_exists("./posts/".$currentPost.".md");
 		if($currentPost) 	//does it actually exist
 		{
-			$currentPost = $path."/posts/".$currentPost.".md";
+			$currentPost = $path."posts/".$currentPost.".md";
 		}
 		else
 		{
 			header( 'refresh:3; url='.$path.'Blog.php' ) ;
-			echo $path;
 			echo "<p class='alert'>The post is a lie (does not exist). Redirecting to default listing.<p><br>";
 		}
 	}

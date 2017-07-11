@@ -79,3 +79,45 @@ p.alert{
     margin-right: auto;
     text-align: center;
 }
+
+//contact page
+
+.contactHeader{
+    padding-top: 4rem;
+}
+
+.contactInfo{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    margin-bottom: 5rem;
+
+    .h3{
+        padding: 1rem;
+    }
+
+    p{
+        margin-left: 2rem;
+    }
+}
+
+.contactForm{
+
+}
+
+.input-group{
+    padding-bottom: 2rem;
+}
+
+.input-group-addon
+{
+    color: $fontColor;
+    background: $accentColor;
+    width: 7rem;
+    text-align: center;
+}
+
+.btn-primary{
+    background: $accentColor3;
+    border-color: $backgroundColor;
+}
