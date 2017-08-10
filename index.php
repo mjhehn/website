@@ -10,24 +10,24 @@ include('./common/navBox.php');
             <div class="col-md-6 offset-md-1 flex-md-last flex-xs-first">
                 <div class="row">
                     <div class="col-8 offset-2">
-                        <br><h2>I'm Matt Hehn</h2><br><h4> Soon-to-be holder of a Bachelors of Science <br>in <a href="https://www.cs.colostate.edu/cstop/csacademics/csdegrees/csbachelors/hccmajor.php">Applied Computing Technology, with a concentration in Human-Centric Computing</a>.<h4>
+                        <br><br><br><br><br><br><!--fix this to a div with top padding later--><h2>I'm Matt Hehn</h2><br><h4> Soon-to-be holder of a Bachelors of Science <br>in <a href="https://www.cs.colostate.edu/cstop/csacademics/csdegrees/csbachelors/hccmajor.php">Applied Computing Technology, with a concentration in Human-Centric Computing</a>.<h4>
                         <h5>A student of UX design and research.</h5>
                     </div>
                     <div class="col-2"></div><!--padding-->
                 </div>
             </div> 
             <div class="offset-md-1 col-md-4 flex-md-first flex-xs-last align-self-center">
-                <a href="http://placeholder.com"><img class="img-fluid" src="http://via.placeholder.com/800x800"></a>
+                <img class="rounded img-fluid" src="./assets/img/mwah.jpg" title="Never have been sure why I let them talk me into the whole 'mystery dinner' thing.">
             </div>
         </div>
         <div class="divider"></div>
         <div class="row" style="margin: 1em; text-align: left;">
             <div class="offset-md-1 col-md-4 offset-md-1 flex-first">
-                <br><br><br>
+                <br><br><br><br><br><!--top padding fun here too, once there's more time-->
                 <h5>I am passionate about exploring new ideas and technologies and how they can be better used by people, or how they can convey new ideas or tell new stories.</h5>
             </div>
             <div class="col-md-5 offset-md-1 flex-last align-self-center">
-                <a href=""><img class="img-fluid" src="./assets/img/vrhack.jpg"></a>
+                <a href=<?php echo $path."Projects/FatTireVR.php"?>><img class="rounded img-fluid" src="./assets/img/vrhack.jpg" title="VR Hackathon"></a>
             </div> 
         </div>
     </div>

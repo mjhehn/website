@@ -112,6 +112,10 @@ p.alertGood{
     }
 }
 
+.contactForm{
+    padding-left: 4rem;
+}
+
 .input-group{
     padding-bottom: 2rem;
 }
@@ -132,53 +136,86 @@ p.alertGood{
 //resume styles *************************************
 $resumeBlockHeight: 6em;
 
-.imgHeader{
+.resumeHeader{
+    margin-top: 5rem;
+    background: $accentColor;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+    .row{
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    .imgHeader{
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        justify-content: center;
-        margin-bottom: -4rem;
-}
+        margin-top: -3.75rem;
+        overflow: hidden;
+    }
 
-.resumeHeader{
-    background: $accentColor;
-    &:active{
+    .imgHeaderCol{
+        display: flex;
+        margin-top: -3.75rem;
         justify-content: center;
     }
 
     & .resumeHeaderName{
-        font-size: 3rem;
-        padding-left: 2rem;
-        text-align: right;
+        font-size: 2.25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    & .resumeHeaderNameCol{
+        text-align: center;
+        font-size: 2.25rem;
     }
 
     & .resumeHeaderLocation{
         padding-top: 0.25rem;
-        font-size: 0.9rem;
+        padding-bottom: 0.5rem;
+        font-size: 1.1rem;
     }
 
     & .resumeHeaderContact{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
-    padding-bottom: 2rem;
+}
+
+.resumeBody{
+    margin: 0;
 }
 
 .resumeBlock{
     background: $accentColor;
-    height: $resumeBlockHeight;
+    //height: $resumeBlockHeight;
+    
     padding: 1rem;
 }
 
+.resumeBlockHeader{
+    background: $accentColor3;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: -1rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
 .firstBlock{
-    
+    & .duration{
+        display: inline;
+    }
 }
 
 .secondBlock{
-
+    
 }
 
 .technologiesBlock{
-    width: 100%;   
+    margin-bottom: -1rem;
 }
 
 .achievementsBlock{

@@ -42,7 +42,7 @@ else
         </div>
         <br>
         <div class="row">
-            <div class="col-md-5 offset-md-1 flex-md-last flex-sm-first">
+            <div class="col-md-4 offset-md-1 flex-md-last flex-sm-first">
                 <h2>//Contact Info</h2>
                 <div class="contactInfo">
                     <h3>Email</h3>
@@ -55,7 +55,7 @@ else
                     <p><a href='https://keybase.io/arsene'>Arsene</a></p>
                 </div>
             </div>
-            <div class="col-md-6 flex-md-first flex-sm-last">
+            <div class="col-md-4 offset-md-2 flex-md-first flex-sm-last">
                 <h2>//Contact Form</h2>
                 <div class='contactForm'>
                     <form action="#" name="contactForm" method="post">

@@ -83,4 +83,3 @@
                     $('#funAccordion').collapse('toggle');
                 });
             </script>
-<p class=alert>Be aware, this site is currently very much a work in progress</p>

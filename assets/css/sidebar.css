@@ -176,7 +176,7 @@ a.dropdown-item {
 .row {
   padding: 1rem; }
 
-/* line 9, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 8, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .divider {
   background-color: #001e27;
   height: 10em;
@@ -185,7 +185,7 @@ a.dropdown-item {
   margin-bottom: 6em;
   padding-lefT: 0; }
 
-/* line 18, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 17, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 p.alert {
   position: fixed;
   top: 0;
@@ -199,7 +199,7 @@ p.alert {
   margin-right: auto;
   text-align: center; }
 
-/* line 32, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 31, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 p.alertGood {
   position: fixed;
   top: 0;
@@ -213,116 +213,141 @@ p.alertGood {
   margin-right: auto;
   text-align: center; }
 
-/* line 47, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 46, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .blog {
   padding: 0rem; }
 
-/* line 51, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 50, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .post {
   text-align: left;
   margin-bottom: 5rem; }
-  /* line 54, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  /* line 53, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .post .postHeader {
     color: #99BAC1;
     background: #00373F;
     border-bottom: 0.2rem solid #99BAC1;
     width: 100%;
     padding: 1.5rem 0 0.25rem 0; }
-    /* line 61, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    /* line 60, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
     .post .postHeader .postTitle {
       display: inline;
       font-size: 2rem;
       margin-left: 1rem; }
-    /* line 67, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    /* line 66, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
     .post .postHeader .postDate {
       display: inline;
       font-size: 0.9rem;
       margin-left: 3rem; }
-    /* line 73, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    /* line 72, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
     .post .postHeader a {
       color: #99BAC1; }
-  /* line 79, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  /* line 78, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .post .postBody {
     padding-top: .5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     color: #99BAC1; }
-    /* line 85, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    /* line 84, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
     .post .postBody p {
       padding: 1rem; }
-    /* line 89, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    /* line 88, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
     .post .postBody h1 {
       color: purple; }
 
-/* line 97, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 96, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .contactHeader {
   padding-top: 4rem; }
 
-/* line 101, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 100, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .contactInfo {
   padding-top: 0.5rem;
   padding-bottom: 2rem;
   padding-left: 4rem;
   margin-bottom: 5rem; }
-  /* line 107, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  /* line 106, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .contactInfo .h3 {
     padding: 1rem; }
-  /* line 111, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  /* line 110, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .contactInfo p {
     margin-left: 2rem; }
 
-/* line 116, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 115, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.contactForm {
+  padding-left: 4rem; }
+
+/* line 119, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .input-group {
   padding-bottom: 2rem; }
 
-/* line 120, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 123, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .input-group-addon {
   color: #99BAC1;
   background: #001e27;
   width: 7rem;
   text-align: center; }
 
-/* line 128, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 131, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .btn-primary {
   background: #486D75;
   border-color: #00090E; }
 
-/* line 136, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.imgHeader {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  margin-bottom: -4rem; }
-
-/* line 144, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 139, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .resumeHeader {
+  margin-top: 5rem;
   background: #001e27;
-  padding-bottom: 2rem; }
-  /* line 146, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .resumeHeader:active {
-    justify-content: center; }
-  /* line 150, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem; }
+  /* line 147, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  .resumeHeader .row {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem; }
+  /* line 151, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  .resumeHeader .imgHeader {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -3.75rem; }
+  /* line 158, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .resumeHeader .resumeHeaderName {
-    font-size: 3rem;
-    padding-left: 2rem;
-    text-align: right; }
-  /* line 156, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    font-size: 2.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify; }
+  /* line 165, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .resumeHeader .resumeHeaderLocation {
     padding-top: 0.25rem;
-    font-size: 0.9rem; }
-  /* line 161, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem; }
+  /* line 171, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .resumeHeader .resumeHeaderContact {
-    font-size: 0.9rem; }
+    font-size: 1.1rem; }
 
-/* line 167, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 176, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.resumeBody {
+  margin: 0; }
+
+/* line 180, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .resumeBlock {
   background: #001e27;
-  height: 6em;
   padding: 1rem; }
 
-/* line 181, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 187, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.resumeBlockHeader {
+  background: #486D75;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: -1rem;
+  margin-bottom: .5rem;
+  text-align: center; }
+
+/* line 197, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.firstBlock .duration {
+  display: inline; }
+
+/* line 206, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .technologiesBlock {
-  width: 100%; }
+  margin-bottom: -1rem; }
 
 /*# sourceMappingURL=../css/sidebar.map */

@@ -5,7 +5,7 @@
 		"../scss/navBarConfig.scss"
 	],
 	"sourcesContent": [
-		"$fontStack: 'PT Mono', monospace;\r\n$fontColor: #99BAC1;\r\n$backgroundColor: #00090E; \r\n$accentColor: #001e27;\r\n$accentColor2: #00373F;\r\n$accentColor3: #486D75;\r\n$hoverColor: white;\r\n$navPanelWidth: 17.26rem;\r\n$sidebarCollapsedWidth: 3.75rem;\r\n"
+		"$fontStack: 'PT Mono', monospace;\r\n$fontColor: #99BAC1;\r\n$backgroundColor: #00090E; \r\n$accentColor: #001e27;\r\n$accentColor2: #00373F;\r\n$accentColor3: #486D75;\r\n$hoverColor: white;\r\n$navPanelWidth: 17.26rem;\r\n$sidebarCollapsedWidth: 3.5rem;\r\n"
 	],
 	"mappings": "",
 	"names": []

@@ -1,4 +1,5 @@
 <?php 
+        //$path = "/";
         //$path = "/";  //AWS path
         $path = "http://192.168.0.17/MJHWebsite/";
         
