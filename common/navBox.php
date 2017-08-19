@@ -47,7 +47,6 @@
                             <a class="accordionButton" id="funAccordion" role="tab" href="#funCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Fun <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                             <div class="collapse" role="tabpanel" id="funCollapse" aria-labelled-by="funAccordion">
                                 <a class="dropdown-item" href=<?php echo $path."Projects/JPTR.php"?>>Project JPTR <i class="fa fa-code" aria-hidden="true"></i> </a>
-                                <a class="dropdown-item" href=<?php echo $path."Projects/ZC.php"?>>ZC Generator <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/CombatDemo.php"?>>Turn-based Combat <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/DungeonCrawler.php"?>>Dungeon Crawler <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/AdventureGame.php"?>>Text Adventure <i class="fa fa-code" aria-hidden="true"></i> </a>

@@ -136,13 +136,21 @@ p.alertGood{
 //resume styles *************************************
 $resumeBlockHeight: 6em;
 
-.resumeHeader{
-    margin-top: 5rem;
+.resume{
+    width: 80%;
     background: $accentColor;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resumeHeader{
+    margin-top: 5rem;
+    
+    margin-bottom: 1rem;
     text-align: center;
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    
 
     .row{
         padding-bottom: 0.5rem;
@@ -153,35 +161,12 @@ $resumeBlockHeight: 6em;
         margin-right: auto;
         display: flex;
         margin-top: -3.75rem;
-        overflow: hidden;
-    }
-
-    .imgHeaderCol{
-        display: flex;
-        margin-top: -3.75rem;
-        justify-content: center;
     }
 
     & .resumeHeaderName{
         font-size: 2.25rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    & .resumeHeaderNameCol{
-        text-align: center;
-        font-size: 2.25rem;
-    }
-
-    & .resumeHeaderLocation{
-        padding-top: 0.25rem;
-        padding-bottom: 0.5rem;
-        font-size: 1.1rem;
-    }
-
-    & .resumeHeaderContact{
-        font-size: 1.1rem;
-    }
 }
 
 .resumeBody{
@@ -207,6 +192,7 @@ $resumeBlockHeight: 6em;
 .firstBlock{
     & .duration{
         display: inline;
+        margin-top: 0.5rem;
     }
 }
 
@@ -215,7 +201,7 @@ $resumeBlockHeight: 6em;
 }
 
 .technologiesBlock{
-    margin-bottom: -1rem;
+    text-align: left;
 }
 
 .achievementsBlock{

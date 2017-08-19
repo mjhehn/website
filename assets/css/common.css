@@ -118,48 +118,43 @@ p.alertGood {
   border-color: #00090E; }
 
 /* line 139, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.resumeHeader {
-  margin-top: 5rem;
+.resume {
+  width: 80%;
   background: #001e27;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 147, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+.resumeHeader {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
   text-align: center;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem; }
-  /* line 147, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  padding-bottom: 1rem; }
+  /* line 155, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .resumeHeader .row {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem; }
-  /* line 151, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  /* line 159, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .resumeHeader .imgHeader {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     margin-top: -3.75rem; }
-  /* line 158, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+  /* line 166, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
   .resumeHeader .resumeHeaderName {
-    font-size: 2.25rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify; }
-  /* line 165, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .resumeHeader .resumeHeaderLocation {
-    padding-top: 0.25rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.1rem; }
-  /* line 171, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .resumeHeader .resumeHeaderContact {
-    font-size: 1.1rem; }
+    font-size: 2.25rem; }
 
-/* line 176, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 172, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .resumeBody {
   margin: 0; }
 
-/* line 180, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 176, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .resumeBlock {
   background: #001e27;
   padding: 1rem; }
 
-/* line 187, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 183, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .resumeBlockHeader {
   background: #486D75;
   font-size: 2rem;
@@ -168,12 +163,13 @@ p.alertGood {
   margin-bottom: .5rem;
   text-align: center; }
 
-/* line 197, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 193, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .firstBlock .duration {
-  display: inline; }
+  display: inline;
+  margin-top: 0.5rem; }
 
-/* line 206, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
+/* line 203, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
 .technologiesBlock {
-  margin-bottom: -1rem; }
+  text-align: left; }
 
 /*# sourceMappingURL=../css/common.map */

@@ -5,4 +5,5 @@
         
         $cssSmall = $path.'assets/css/slideout.css';
         $cssLarge = $path.'assets/css/sidebar.css';
+        $cssGallery = $path.'assets/css/blueimp-gallery.min.css';
 ?>

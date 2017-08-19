@@ -63,7 +63,7 @@ function printPost($thePost)
 
 include('./common/navBox.php');
 ?>
-
+<h2>Pardon the dust, still working on getting this up and running properly</h2>
 <div class="content-wrap">
     <div class="content">
        <div class="blog">
