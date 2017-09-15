@@ -6,6 +6,4 @@
         echo '<script src="'.$js.'collapsey.js"'.'></script>';
 ?>
 </body>
-<footer>
-</footer>
 </div> <!--IMPORTANT the container div end. -->

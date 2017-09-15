@@ -9,10 +9,10 @@ include('../common/navBox.php');
                 <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
                     <br><br><br><h2>A simple Adventure Game</h2><br>
                     <p style="text-align: left">
-                        Built as the final project of my very first programming/logic course in C++ in late 2013. 
-                        <br>It was a very basic project, but was one of my first real opportunities to work with the idea of a simple game within the scope of my abilities at the time. 
-                        <br>All the information on rooms and scenarios were stored in simple text files, while the main executable contained functions for each room that would read the file. 
-                        <br>I wished not much later that I had learned more about object oriented programming a bit earlier and saved myself a lot of work.
+                        Turned in as the final project of my very first programming/logic course in C++ in late 2013, but built mostly for fun. 
+                        <br><br>The game was honestly very basic, but was the first time I tried to work with the idea of a simple game within the scope of my abilities at the time. 
+                        <br><br>All the information on rooms and scenarios were stored in simple text files, while the main executable contained functions for each room that would read the file. 
+                        <br><br>I wished not much later that I had learned more about object oriented programming a bit earlier and saved myself a lot of work.
                         <br><br>
                     </p>
                 </div>

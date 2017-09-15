@@ -9,7 +9,7 @@ include('../common/navBox.php');
                 <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
                     <br><br><br><h2>A simple Dungeon Crawler Game</h2><br>
                     <p style="text-align: left">
-                        Built as part of a 24hr Hackathon at FRCC in C++ in 2014, and refined somewhat as my final project that semester.
+                        Built as part of a 24hr Hackathon at FRCC in C++ in 2014, and refined somewhat to be submitted as my final project that semester.
                         <br>It was a very basic project, given that we had no real graphical capacity outside of the terminal 
                         <br>It was also one of our first larger scale group projects done with more object oriented programming (and what then I considered a lot of inheritance).
                         <br><br>This is still one of the general designs on a conceptual level that I like (or at least, I like it in a small codebase) <br> in regards to how multiple inheritance was used to easily spin up both character classes and enemy NPCs.

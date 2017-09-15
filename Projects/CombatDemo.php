@@ -11,11 +11,11 @@ include('../common/navBox.php');
                     <br><br><br><h2>A 'Combat Demo'</h2><br>
                     <p style="text-align: left">
                         Built as a project for fun in mid 2014, this was my first crack at trying to build a simple game with direct feedback from friends and others on the web in how to build out the systems.
-                        <br>It was not overly complex, but was my first try at really making a little RPG that had equipment (including a horrendous armor durability mechanic). 
-                        <br>In most regards, it was meant to be a testing ground for different mechanics that I at that time intended to then use in a slightly broader game.
-                        <br>This broader game was intended to use fictionalized versions of the major personalities of the community I was getting feedback from. 
-                        <br>Said game really name came to be, and is still just a bunch of scraps of code buried in some directories.
-                        <br><br>Even worse, I seem to have lost the source for this one and only really still have an .exe and dependencies.
+                        It was not overly complex, but was my first try at really making a little RPG that had equipment (including a horrendous armor durability mechanic). 
+                        <br><br>In most regards, this project was meant to be a testing ground for different mechanics that I at that time intended to then use in a slightly broader game.
+                        <br><br>The broader game was intended to use fictionalized versions of the major personalities of the community I was getting feedback from. 
+                        Said game really never came to be, and is still just a bunch of scraps of code buried in some directories.
+                        <br><br>Even worse, I seem to have lost the source for this one and only really still have the executable and have not spent the time to reverse engineer it.
                         <br><br>
                     </p>
                 </div>
@@ -34,7 +34,7 @@ include('../common/navBox.php');
 
         <div class="row justify-content-center">
             <div class="card card-inverse">
-                <button type="button" class="btn btn-outline-secondary disabled">See Source</button>
+                <button type="button" class="btn btn-outline-secondary">Download</button>
             </div>
         </div>
     </div>

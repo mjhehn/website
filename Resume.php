@@ -20,9 +20,9 @@ include('./common/navBox.php');
             <div class='resumeBody'>
                 <div class='resumeBlock firstBlock'>
                     <div class="resumeBlockHeader">Experience</div>
-                    <div class="row"><div class="col-8"><h4>RAMtech Lead Technologist</h4></div> <div class='col-4 duration'>Summer 2016-Winter 2017</div> <div class="offset-1 location">Colorado State University, Fort Collins CO.</div></div>
+                    <div class="row"><div class="col-8"><h4>RAMtech Technologist</h4></div> <div class='col-4 duration'>Summer 2016-Winter 2017</div> <div class="offset-1 location">Colorado State University, Fort Collins CO.</div></div>
                     <div class="row"><div class="col-8"><h4>EasyTech Associate</h4></div><div class='col-4 duration'>Summer 2014-Fall 2016</div> <div class="offset-1 location"> Staples INC, Fort Collins CO.</div></div>
-                    <div class="row"><div class="col-8"><h4>Contract Assembler</h4></div> <div class='col-4 duration'>Winter 2013 </div> <div class="offset-1 location">Ampt LLC, Fort Collins CO.</div></div>
+                    <div class="row"><div class="col-8"><h4>Contract Hardware Assembly</h4></div> <div class='col-4 duration'>Winter 2013 </div> <div class="offset-1 location">Ampt LLC, Fort Collins CO.</div></div>
                     <div class="row"><div class="col-8"><h4>Summer Program Instructor</h4></div> <div class='col-4 duration'>Summer 2012 </div> <div class="offset-1 location">Longs Peak Council, Greeley CO.</div></div>
                     <div class="row"><div class="col-8"><h4>Summer Program Instructor</h4></div> <div class='col-4 duration'>Summer 2011</div> <div class="offset-1 location">Longs Peak Council, Greeley CO.</div></div>
                 </div>
@@ -40,44 +40,43 @@ include('./common/navBox.php');
                 <div class='resumeBlock technologiesBlock'>
                     <div class="resumeBlockHeader">Technologies</div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3 col-sm-6">
                             <ul>
                                 <li>C</li>
                                 <li>C++</li>
                                 <li>Java</li>
                                 <li>Python</li>
                                 <li>Visual Basic</li>
-                                <li>Windows Forms</li>
-                                <li>Eclipse Android Dev</li>
-                            </ul>
-                        </div>
-                        <div class="col-3">
-                            <ul>
-                                <li>HTML 5</li>
                                 <li>JavaScript</li>
                                 <li>PHP</li>
-                                <li>Bootstrap</li>
-                                <li>Apache</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <ul>
+                                <li>HTML 5</li>
+                                <li>Bootstrap Framework</li>
+                                <li>Apache Server</li>
                                 <li>SQLite</li>
                                 <li>mySQL</li>
+                                <li>Minimal AWS</li>
                             </ul>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-sm-6">
                             <ul>
                                 <li>Vector Drawing Programs</li>
-                                <li>Adobe Photoshop</li>
+                                <li>Adobe Photoshop/Equivalents</li>
                                 <li>Non-linear Video Editors</li>
                                 <li>MS Office Suite</li>
-                                <li>Unreal Engine 4</li>
+                                <li>Intermediate IBM SPSS</li>
                             </ul>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-sm-6">
                             <ul>
                                 <li>Windows Operating Systems</li>
                                 <li>Linux Operating Systems</li>
+                                <li>Java Android Development</li>
                                 <li>SteamVR Platform</li>
-                                <li>HTC Vive</li>
-                                <li>Oculus Rift</li>
+                                <li>Unreal Engine 4</li>
                             </ul>
                         </div>
                 </div>
