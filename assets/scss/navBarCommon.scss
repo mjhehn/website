@@ -26,13 +26,14 @@
     border-style: solid;
     border-color: $fontColor;
     border-width: 0.1em 0 0 0;
-	overflow: visible;
-}
-.miniFooterContent{
-    padding: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    overflow: visible;
+
+    &:minifooterContent{
+        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 a > .fa{

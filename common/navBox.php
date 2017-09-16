@@ -63,7 +63,7 @@
                 </nav>
                 <div class="miniFooter">
                         <div class="minifooterContent">
-                            <a href="mailto:arsene@protonmail.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+                            <a href="mailto:mjh@matthehn.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
                             <a href="https://github.com/mjhehn" alt="Matt's Github"><i class="fa fa-github fa-lg" aria-hidden="true" ></i></a> 
                             <small>&nbsp &copy; 2017 Matt Hehn</small>
                         </div>

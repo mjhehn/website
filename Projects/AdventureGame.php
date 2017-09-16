@@ -28,7 +28,7 @@ include('../common/navBox.php');
 
         <div class="row justify-content-center">
             <div class="card card-inverse">
-                <a class="btn btn-outline-secondary" role="button" href="https://github.com/mjhehn/CS116AdventureGame">See Source</a>
+                <a class="btn-outline-secondary" role="button" href="https://github.com/mjhehn/CS116AdventureGame">See Source</a>
             </div>
         </div>
     </div>
