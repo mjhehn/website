@@ -34,7 +34,7 @@ include('../common/navBox.php');
 
         <div class="row justify-content-center">
             <div class="card card-inverse">
-                <a role="button" class="btn-outline-secondary" href="https://github.com/mjhehn/CombatDemo">See project</a>
+                <a role="button" class="btn btn-outline-primary" href="https://github.com/mjhehn/CombatDemo">See project</a>
             </div>
         </div>
     </div>

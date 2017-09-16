@@ -27,9 +27,9 @@
     border-color: $fontColor;
     border-width: 0.1em 0 0 0;
     overflow: visible;
+    padding: 1rem;
 
     &:minifooterContent{
-        padding: 1rem;
         margin-left: auto;
         margin-right: auto;
         text-align: center;

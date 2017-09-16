@@ -22,9 +22,9 @@
   border-style: solid;
   border-color: #99BAC1;
   border-width: 0.1em 0 0 0;
-  overflow: visible; }
+  overflow: visible;
+  padding: 1rem; }
   .miniFooter:minifooterContent {
-    padding: 1rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center; }
