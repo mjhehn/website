@@ -1,4 +1,4 @@
-@import 'navBarConfig';
+@import 'navBarConfig.scss';
 
 html, body, .container, .content-wrap {
     font: 100% $fontStack;
@@ -82,5 +82,5 @@ menu,
 }
 
 /*Begin common parts*/
-@import 'navBarCommon';
-@import 'common'
+@import 'navBarCommon.scss';
+@import 'common.scss'

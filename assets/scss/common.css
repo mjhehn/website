@@ -1,0 +1,144 @@
+.row {
+  padding: 1rem; }
+
+.divider {
+  background-color: #001e27;
+  height: 10em;
+  width: 100%;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  padding-lefT: 0; }
+
+p.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  background: rgba(255, 0, 0, 0.25);
+  color: white;
+  width: 100%;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+p.alertGood {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  background: rgba(0, 255, 0, 0.25);
+  color: white;
+  width: 100%;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.blog {
+  padding: 0rem; }
+
+.post {
+  text-align: left;
+  margin-bottom: 5rem; }
+  .post .postHeader {
+    color: #99BAC1;
+    background: #00373F;
+    border-bottom: 0.2rem solid #99BAC1;
+    width: 100%;
+    padding: 1.5rem 0 0.25rem 0; }
+    .post .postHeader .postTitle {
+      display: inline;
+      font-size: 2rem;
+      margin-left: 1rem; }
+    .post .postHeader .postDate {
+      display: inline;
+      font-size: 0.9rem;
+      margin-left: 3rem; }
+    .post .postHeader a {
+      color: #99BAC1; }
+  .post .postBody {
+    padding-top: .5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #99BAC1; }
+    .post .postBody p {
+      padding: 1rem; }
+    .post .postBody h1 {
+      color: purple; }
+
+.contactHeader {
+  padding-top: 4rem; }
+
+.contactInfo {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  margin-bottom: 5rem; }
+  .contactInfo .h3 {
+    padding: 1rem; }
+  .contactInfo p {
+    margin-left: 2rem; }
+
+.contactForm {
+  padding-left: 4rem; }
+
+.input-group {
+  padding-bottom: 2rem; }
+
+.input-group-addon {
+  color: #99BAC1;
+  background: #001e27;
+  width: 7rem;
+  text-align: center; }
+
+.btn-primary {
+  background: #486D75;
+  border-color: #00090E; }
+
+.resume {
+  width: 80%;
+  background: #001e27;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.resumeHeader {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding-bottom: 1rem; }
+  .resumeHeader .row {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem; }
+  .resumeHeader .imgHeader {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -3.75rem; }
+  .resumeHeader .resumeHeaderName {
+    font-size: 2.25rem; }
+
+.resumeBody {
+  margin: 0; }
+
+.resumeBlock {
+  background: #001e27;
+  padding: 1rem; }
+
+.resumeBlockHeader {
+  background: #486D75;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: -1rem;
+  margin-bottom: .5rem;
+  text-align: center; }
+
+.firstBlock .duration {
+  display: inline;
+  margin-top: 0.5rem; }
+
+.technologiesBlock {
+  text-align: left; }
+
+/*# sourceMappingURL=common.css.map */

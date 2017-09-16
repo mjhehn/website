@@ -28,7 +28,7 @@ include('../common/navBox.php');
 
         <div class="row justify-content-center">
             <div class="card card-inverse">
-                <button type="button" class="btn btn-outline-secondary disabled">See Source</button>
+                <a class="btn btn-outline-secondary" role="button" href="https://github.com/mjhehn/HackathonDungeonCrawler/">See Source</a>
             </div>
         </div>
     </div>

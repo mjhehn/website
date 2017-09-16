@@ -1,4 +1,4 @@
-@import 'navBarConfig';
+@import 'navBarConfig.scss';
 
 html, body, .container, .content-wrap {
     font: 100% $fontStack;
@@ -274,5 +274,5 @@ menu,
 	transform: translate3d(0,0,0);
 }
 
-@import 'navBarCommon';
-@import 'common'
+@import 'navBarCommon.scss';
+@import 'common.scss'

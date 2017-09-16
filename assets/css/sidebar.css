@@ -1,349 +1,119 @@
-/* line 3, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-html, body, .container, .content-wrap {
-  font: 100% "PT Mono", monospace;
-  color: #99BAC1;
-  background-color: #00090E;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  padding: 0; }
+html, body, .container, .content-wrap { font: 100% "PT Mono", monospace; color: #99BAC1; background-color: #00090E; overflow: hidden; width: 100%; height: 100%; padding: 0; }
 
-/* line 13, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-.content-wrap {
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-left: 17.26rem;
-  margin-right: 1rem;
-  width: calc(100% - 17.26rem); }
+.content-wrap { overflow-y: auto; -webkit-overflow-scrolling: touch; margin-left: 17.26rem; margin-right: 1rem; width: calc(100% - 17.26rem); }
 
-/* line 21, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-.content {
-  z-index: 10;
-  position: relative;
-  background: #00090E; }
+.content { z-index: 10; position: relative; background: #00090E; }
 
 /* buttons */
-/* line 28, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-.menu-button, .close-button, .sideResumeButton, .sideBlogButton, .sideContactButton {
-  display: none;
-  visibility: hidden; }
+.menu-button, .close-button, .sideResumeButton, .sideBlogButton, .sideContactButton { display: none; visibility: hidden; }
 
-/* line 33, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-.spacer {
-  display: none; }
+.spacer { display: none; }
 
 /* Menu */
-/* line 38, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-.menu-wrap {
-  position: absolute;
-  z-index: 1001;
-  width: 17.26rem;
-  height: 100%;
-  background: #001e27;
-  padding: 1% 0 1% 0;
-  font-size: 1.15em; }
-  /* line 48, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-  .menu-wrap a:hover, .menu-wrap a:focus {
-    color: white;
-    background: none; }
-  /* line 52, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-  .menu-wrap a:active {
-    color: white;
-    background: #486D75;
-    width: 100%; }
+.menu-wrap { position: absolute; z-index: 1001; width: 17.26rem; height: 100%; background: #001e27; padding: 1% 0 1% 0; font-size: 1.15em; }
 
-/* line 60, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-menu,
-.menu-list {
-  overflow: hidden; }
+.menu-wrap a:hover, .menu-wrap a:focus { color: white; background: none; }
 
-/* line 65, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-.menu {
-  height: 100%;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; }
+.menu-wrap a:active { color: white; background: #486D75; width: 100%; }
 
-/* line 71, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-.menu-list {
-  height: 23em;
-  min-height: 9em;
-  padding-left: 0;
-  padding-bottom: 1.5em;
-  overflow-x: hidden; }
-  /* line 78, G:/wamp64/www/MJHWebsite/assets/scss/sidebar.scss */
-  .menu-list a {
-    display: block;
-    text-align: center; }
+menu, .menu-list { overflow: hidden; }
+
+.menu { height: 100%; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+
+.menu-list { height: 23em; min-height: 9em; padding-left: 0; padding-bottom: 1.5em; overflow-x: hidden; }
+
+.menu-list a { display: block; text-align: center; }
 
 /*Begin common parts*/
-/* line 3, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-.image-container {
-  /*center the image*/
-  display: flex;
-  padding-top: 45%;
-  padding-bottom: .8em;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center; }
-  /* line 11, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-  .image-container:active {
-    justify-content: center; }
+.image-container { /*center the image*/ display: flex; padding-top: 45%; padding-bottom: .8em; margin-left: auto; margin-right: auto; justify-content: center; }
 
-/* line 16, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-.miniFooter {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 5%;
-  min-height: 3em;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background: #001e27;
-  border-style: solid;
-  border-color: #99BAC1;
-  border-width: 0.1em 0 0 0;
-  overflow: visible; }
+.image-container:active { justify-content: center; }
 
-/* line 31, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-.miniFooterContent {
-  padding: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
+.miniFooter { position: absolute; bottom: 0; left: 0; height: 5%; min-height: 3em; width: 100%; margin-left: auto; margin-right: auto; background: #001e27; border-style: solid; border-color: #99BAC1; border-width: 0.1em 0 0 0; overflow: visible; }
 
-/* line 38, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-a > .fa {
-  display: inline; }
+.miniFooterContent { padding: 1rem; margin-left: auto; margin-right: auto; text-align: center; }
 
-/* line 42, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-.fa-lg, .fa, a.dropdown-item, a.nav-link {
-  color: #99BAC1; }
+a > .fa { display: inline; }
 
-/* line 47, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-a.accordionButton {
-  cursor: pointer;
-  color: #99BAC1;
-  text-align: center;
-  padding: .5em 1em;
-  text-decoration: none; }
-  /* line 54, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-  a.accordionButton:focus .fa, a.accordionButton:hover .fa {
-    color: white; }
+.fa-lg, .fa, a.dropdown-item, a.nav-link { color: #99BAC1; }
 
-/* line 60, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-a.nav-link:hover, a.nav-link:focus {
-  color: white;
-  width: 100%; }
+a.accordionButton { cursor: pointer; color: #99BAC1; text-align: center; padding: .5em 1em; text-decoration: none; }
 
-/* line 65, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-a.nav-link:focus .fa, a.nav-link:hover .fa {
-  color: white; }
+a.accordionButton:focus .fa, a.accordionButton:hover .fa { color: white; }
 
-/* line 70, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-a.dropdown-item {
-  padding: 0.5em;
-  padding-right: 2em;
-  background: #00373F;
-  text-align: right; }
-  /* line 76, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-  a.dropdown-item:hover, a.dropdown-item:focus {
-    color: white;
-    background: #00373F;
-    width: 100%;
-    border-left: 0.2em solid white;
-    text-decoration: underline; }
-  /* line 84, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-  a.dropdown-item:focus .fa, a.dropdown-item:hover .fa {
-    color: white; }
-  /* line 88, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-  a.dropdown-item:active {
-    color: white;
-    background: #486D75;
-    width: 100%; }
+a.nav-link:hover, a.nav-link:focus { color: white; width: 100%; }
 
-/* line 95, G:/wamp64/www/MJHWebsite/assets/scss/navBarCommon.scss */
-.collapse {
-  color: #99BAC1;
-  background: none;
-  width: 100%;
-  overflow: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; }
+a.nav-link:focus .fa, a.nav-link:hover .fa { color: white; }
+
+a.dropdown-item { padding: 0.5em; padding-right: 2em; background: #00373F; text-align: right; }
+
+a.dropdown-item:hover, a.dropdown-item:focus { color: white; background: #00373F; width: 100%; border-left: 0.2em solid white; text-decoration: underline; }
+
+a.dropdown-item:focus .fa, a.dropdown-item:hover .fa { color: white; }
+
+a.dropdown-item:active { color: white; background: #486D75; width: 100%; }
+
+.collapse { color: #99BAC1; background: none; width: 100%; overflow: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 
 /*End of Header*/
-/* line 4, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.row {
-  padding: 1rem; }
+.row { padding: 1rem; }
 
-/* line 8, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.divider {
-  background-color: #001e27;
-  height: 10em;
-  width: 100%;
-  margin-top: 6em;
-  margin-bottom: 6em;
-  padding-lefT: 0; }
+.divider { background-color: #001e27; height: 10em; width: 100%; margin-top: 6em; margin-bottom: 6em; padding-lefT: 0; }
 
-/* line 17, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-p.alert {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10001;
-  background: rgba(255, 0, 0, 0.25);
-  color: white;
-  width: 100%;
-  height: 3em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
+p.alert { position: fixed; top: 0; left: 0; z-index: 10001; background: rgba(255, 0, 0, 0.25); color: white; width: 100%; height: 3em; margin-left: auto; margin-right: auto; text-align: center; }
 
-/* line 31, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-p.alertGood {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10001;
-  background: rgba(0, 255, 0, 0.25);
-  color: white;
-  width: 100%;
-  height: 3em;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
+p.alertGood { position: fixed; top: 0; left: 0; z-index: 10001; background: rgba(0, 255, 0, 0.25); color: white; width: 100%; height: 3em; margin-left: auto; margin-right: auto; text-align: center; }
 
-/* line 46, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.blog {
-  padding: 0rem; }
+.blog { padding: 0rem; }
 
-/* line 50, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.post {
-  text-align: left;
-  margin-bottom: 5rem; }
-  /* line 53, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .post .postHeader {
-    color: #99BAC1;
-    background: #00373F;
-    border-bottom: 0.2rem solid #99BAC1;
-    width: 100%;
-    padding: 1.5rem 0 0.25rem 0; }
-    /* line 60, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-    .post .postHeader .postTitle {
-      display: inline;
-      font-size: 2rem;
-      margin-left: 1rem; }
-    /* line 66, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-    .post .postHeader .postDate {
-      display: inline;
-      font-size: 0.9rem;
-      margin-left: 3rem; }
-    /* line 72, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-    .post .postHeader a {
-      color: #99BAC1; }
-  /* line 78, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .post .postBody {
-    padding-top: .5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    color: #99BAC1; }
-    /* line 84, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-    .post .postBody p {
-      padding: 1rem; }
-    /* line 88, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-    .post .postBody h1 {
-      color: purple; }
+.post { text-align: left; margin-bottom: 5rem; }
 
-/* line 96, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.contactHeader {
-  padding-top: 4rem; }
+.post .postHeader { color: #99BAC1; background: #00373F; border-bottom: 0.2rem solid #99BAC1; width: 100%; padding: 1.5rem 0 0.25rem 0; }
 
-/* line 100, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.contactInfo {
-  padding-top: 0.5rem;
-  padding-bottom: 2rem;
-  padding-left: 4rem;
-  margin-bottom: 5rem; }
-  /* line 106, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .contactInfo .h3 {
-    padding: 1rem; }
-  /* line 110, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .contactInfo p {
-    margin-left: 2rem; }
+.post .postHeader .postTitle { display: inline; font-size: 2rem; margin-left: 1rem; }
 
-/* line 115, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.contactForm {
-  padding-left: 4rem; }
+.post .postHeader .postDate { display: inline; font-size: 0.9rem; margin-left: 3rem; }
 
-/* line 119, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.input-group {
-  padding-bottom: 2rem; }
+.post .postHeader a { color: #99BAC1; }
 
-/* line 123, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.input-group-addon {
-  color: #99BAC1;
-  background: #001e27;
-  width: 7rem;
-  text-align: center; }
+.post .postBody { padding-top: .5rem; margin-left: 2rem; margin-right: 2rem; color: #99BAC1; }
 
-/* line 131, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.btn-primary {
-  background: #486D75;
-  border-color: #00090E; }
+.post .postBody p { padding: 1rem; }
 
-/* line 139, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.resume {
-  width: 80%;
-  background: #001e27;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto; }
+.post .postBody h1 { color: purple; }
 
-/* line 147, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.resumeHeader {
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  padding-bottom: 1rem; }
-  /* line 155, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .resumeHeader .row {
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem; }
-  /* line 159, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .resumeHeader .imgHeader {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    margin-top: -3.75rem; }
-  /* line 166, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-  .resumeHeader .resumeHeaderName {
-    font-size: 2.25rem; }
+.contactHeader { padding-top: 4rem; }
 
-/* line 172, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.resumeBody {
-  margin: 0; }
+.contactInfo { padding-top: 0.5rem; padding-bottom: 2rem; padding-left: 4rem; margin-bottom: 5rem; }
 
-/* line 176, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.resumeBlock {
-  background: #001e27;
-  padding: 1rem; }
+.contactInfo .h3 { padding: 1rem; }
 
-/* line 183, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.resumeBlockHeader {
-  background: #486D75;
-  font-size: 2rem;
-  padding: 1rem;
-  margin: -1rem;
-  margin-bottom: .5rem;
-  text-align: center; }
+.contactInfo p { margin-left: 2rem; }
 
-/* line 193, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.firstBlock .duration {
-  display: inline;
-  margin-top: 0.5rem; }
+.contactForm { padding-left: 4rem; }
 
-/* line 203, G:/wamp64/www/MJHWebsite/assets/scss/common.scss */
-.technologiesBlock {
-  text-align: left; }
+.input-group { padding-bottom: 2rem; }
 
-/*# sourceMappingURL=../css/sidebar.map */
+.input-group-addon { color: #99BAC1; background: #001e27; width: 7rem; text-align: center; }
+
+.btn-primary { background: #486D75; border-color: #00090E; }
+
+.resume { width: 80%; background: #001e27; justify-content: center; margin-left: auto; margin-right: auto; }
+
+.resumeHeader { margin-top: 5rem; margin-bottom: 1rem; text-align: center; padding-bottom: 1rem; }
+
+.resumeHeader .row { padding-bottom: 0.5rem; padding-top: 0.5rem; }
+
+.resumeHeader .imgHeader { margin-left: auto; margin-right: auto; display: flex; margin-top: -3.75rem; }
+
+.resumeHeader .resumeHeaderName { font-size: 2.25rem; }
+
+.resumeBody { margin: 0; }
+
+.resumeBlock { background: #001e27; padding: 1rem; }
+
+.resumeBlockHeader { background: #486D75; font-size: 2rem; padding: 1rem; margin: -1rem; margin-bottom: .5rem; text-align: center; }
+
+.firstBlock .duration { display: inline; margin-top: 0.5rem; }
+
+.technologiesBlock { text-align: left; }

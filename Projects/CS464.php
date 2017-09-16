@@ -26,6 +26,12 @@ include('../common/navBox.php');
                         <br><img class="img-fluid img-responsive" src="../assets/img/queue2.png" title="High fidelity prototype landing page" alt="">
                     </div>
                 </div>
+
+                <div class="row justify-content-center">
+                    <div class="card card-inverse">
+                        <a class="btn btn-outline-secondary" role="button" href=" https://github.com/mjhehn/CS464Project/">See Project</a>
+                    </div>
+                </div>
             </div>
         </div>
 
