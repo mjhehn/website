@@ -343,6 +343,10 @@ p.alertGood {
   margin-right: auto;
   text-align: center; }
 
+.btn-outline-primary {
+  background: #00090E;
+  color: #99BAC1; }
+
 .blog {
   padding: 0rem; }
 
