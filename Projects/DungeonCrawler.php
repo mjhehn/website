@@ -24,7 +24,7 @@ include('../common/navBox.php');
             <div class="col-md-5">
                 <br><img class="img-fluid" src="AdvGame2.png" alt="The basic interaction of the game">
             </div>
-        </div>-->
+        </div>--> 
 
         <div class="row justify-content-center">
             <div class="card card-inverse">
