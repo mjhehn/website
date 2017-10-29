@@ -42,6 +42,7 @@
                             <hr /> -->
                             <a class="accordionButton" id="academiaAccordion" role="tab" href="#academiaCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Academia <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                             <div class="collapse" role="tabPanel" id="academiaCollapse" aria-labelled-by="academiaAccordion">
+                                <a class="dropdown-item" href=<?php echo $path."Projects/LocalHost.php"?>>ASL VR <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/CS464.php"?>>CS464 UX Design <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 <a class="dropdown-item" href=<?php echo $path."Projects/FatTireVR.php"?>>Fat Tire VR <i class="fa fa-code" aria-hidden="true"></i> </a>
                             </div>

@@ -10,7 +10,7 @@ include('../common/navBox.php');
                 <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
                     <br><br><br><h2>'Fat Tire' VR - RAMhack 2016</h2><br>
                     <p style="text-align: left">
-                        Team Ballmer Peak's submission for Colorado State University's first Virtual Reality RAMhack. As per the guidelines of the hackathon and its contest, 'Fat Tire' was built by a five-person team over the course of 72 hours and was a concept promoting 'Scholarship, research, and community connection'.
+                        Team Ballmer Peak's submission for Colorado State University's first Virtual Reality "RAMhack" hackathon. As per the guidelines of the hackathon and its contest, 'Fat Tire' was built by a five-person team over the course of 48 hours and was a concept promoting 'Scholarship, research, and community connection'.
                         <br><br>'Fat Tire' in design was intended to be a driving simulator with two potential applications:
                         <li>Further expand on the capabilities of the driving simulator used by some of CSU's cognitive psychology researchers by making it cheaper and easier to run, but with more flexiblity in what sorts of metrics can be gathered. Secondary controllers were used to simulate existing research methods used to simulate distracted driving in the simulator.</li>
                         <br><li>Provide an educational/community service by allowing users to experience and quantify how alcohol or similar substances might influence their driving ability. (through random slightly delayed control reactions, instability in the virtual camera. In more extreme modes, forced 'heavy blinking' and FOV shifts included)</li>
