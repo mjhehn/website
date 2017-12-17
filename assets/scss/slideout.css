@@ -374,8 +374,15 @@ a.dropdown-item:active {
 }
 
 /*End of Header*/
-.row {
-  padding: 1rem;
+.grid-container {
+  display: grid;
+}
+
+.grid-container .grid-row-2 {
+  display: grid;
+  grid-template-columns: 3rem repeat(2, 1fr) 3rem;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 3rem;
 }
 
 .divider {
@@ -418,54 +425,6 @@ p.alertGood {
 .btn-outline-primary {
   background: #00090E;
   color: #99BAC1;
-}
-
-.blog {
-  padding: 0rem;
-}
-
-.post {
-  text-align: left;
-  margin-bottom: 5rem;
-}
-
-.post .postHeader {
-  color: #99BAC1;
-  background: #00373F;
-  border-bottom: 0.2rem solid #99BAC1;
-  width: 100%;
-  padding: 1.5rem 0 0.25rem 0;
-}
-
-.post .postHeader .postTitle {
-  display: inline;
-  font-size: 2rem;
-  margin-left: 1rem;
-}
-
-.post .postHeader .postDate {
-  display: inline;
-  font-size: 0.9rem;
-  margin-left: 3rem;
-}
-
-.post .postHeader a {
-  color: #99BAC1;
-}
-
-.post .postBody {
-  padding-top: .5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  color: #99BAC1;
-}
-
-.post .postBody p {
-  padding: 1rem;
-}
-
-.post .postBody h1 {
-  color: purple;
 }
 
 .contactHeader {

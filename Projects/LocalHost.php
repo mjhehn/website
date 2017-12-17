@@ -3,7 +3,7 @@ $pageName="RAMhack 2017 Submission - Matt's Alcove ";
 require('../common/config.php');
 include('../common/navBox.php');
 ?>
-
+<!-- TODO: update with neural net implementation -->
 <div class="content-wrap">
     <div class="content">
         <div class="row" style="text-align: center;">
