@@ -1,17 +1,15 @@
 @import 'navBarConfig.scss';
 
-html, body, .container, .content-wrap {
+body, .content-wrap {
     font: 100% $fontStack;
     color: $fontColor;
     background-color: $backgroundColor;
-    overflow: hidden;
-    width: 100%;
+    width: auto;
     height: 100%;
     padding: 0;
 }
 
 .content-wrap{
-    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 	margin-left: $navPanelWidth;
 	margin-right: 1rem;
@@ -21,6 +19,7 @@ html, body, .container, .content-wrap {
 .content{
 	z-index: 10;
     position: relative;
+
     background: $backgroundColor;
 }
 
@@ -36,12 +35,13 @@ html, body, .container, .content-wrap {
 
 /* Menu */
 .menu-wrap {
-	position: absolute;
+    grid-column: 1/2;
+    position: fixed;
 	z-index: 1001;
 	width: $navPanelWidth;
-	height: 100%;
+    height: calc(100vh - 4rem);
 	background: $accentColor;
-	padding: 1% 0 1% 0;
+	padding: 1% 0 -2% 0;
 	font-size: 1.15em;
 
     a {

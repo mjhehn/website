@@ -5,5 +5,5 @@
         echo '<script src="'.$js.'main.js"'.'></script>';
         echo '<script src="'.$js.'collapsey.js"'.'></script>';
 ?>
+</div>
 </body>
-</div> <!--IMPORTANT the container div end. -->
