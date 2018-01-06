@@ -70,15 +70,15 @@
                             </div>
                         </div>
                     <button class="close-button" id="close-button">Close Menu</button>
-                    <!--Begin icon menu -->
-                    <div class="spacer"></div>
-                    <button class="menu-button" id="open-button" alt="open menu" title="Menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
-                    <a class="sideResumeButton" href=<?php echo $path."Resume.php"?> alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>
-                    <!--<a class="sideBlogButton" href=<?php echo $path."Blog.php"?> alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a> -->
-                    <a class="sideContactButton" href=<?php echo $path."Contact.php"?> alt="Contact Matt" title="Contact"><i class="fa fa-user fa-lg" aria-hidden="true" alt="Contact Matt"></i></a>
-
+                    
                 </div>
-                                
+                <!--Begin icon menu -->
+                <div class="spacer"></div>
+                <button class="menu-button" id="open-button" alt="open menu" title="Menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+                <a class="sideResumeButton" href=<?php echo $path."Resume.php"?> alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>
+                <!--<a class="sideBlogButton" href=<?php echo $path."Blog.php"?> alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a> -->
+                <a class="sideContactButton" href=<?php echo $path."Contact.php"?> alt="Contact Matt" title="Contact"><i class="fa fa-user fa-lg" aria-hidden="true" alt="Contact Matt"></i></a>
+          
 
                 <script>
                     $('#funAccordion').focus(function () {

@@ -2,7 +2,6 @@ html, body, .content-wrap {
   font: 100% "PT Mono", monospace;
   color: #99BAC1;
   background-color: #00090E;
-  overflow: hidden;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -11,6 +10,7 @@ html, body, .content-wrap {
 .content-wrap {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  width: calc(100% - 17.26rem);
 }
 
 .content-wrap::before {
@@ -33,8 +33,6 @@ html, body, .content-wrap {
 .content {
   position: relative;
   background: #00090E;
-  margin-left: 3.5rem;
-  margin-right: 0.25rem;
 }
 
 /* Menu Button */
@@ -137,9 +135,8 @@ html, body, .content-wrap {
 }
 
 .spacer {
+  grid-column: 1/2;
   position: fixed;
-  top: 0;
-  left: 0;
   height: 100%;
   width: 3.5rem;
   background: #001e27;
@@ -148,12 +145,12 @@ html, body, .content-wrap {
 
 /* Menu */
 .menu-wrap {
-  position: absolute;
+  position: fixed;
   z-index: 1001;
   width: 17.26rem;
-  height: 100%;
+  height: calc(100vh - 4rem);
   background: #001e27;
-  padding: 1% 0 1% 0;
+  padding: 1% 0 -2% 0;
   font-size: 1.15em;
   -webkit-transform: translate3d(-16em, 0, 0);
   transform: translate3d(-16em, 0, 0);
@@ -403,7 +400,6 @@ a.dropdown-item:active {
 .grid-container .content .grid-row-2 .grid-item-2 {
   grid-column: 2/3;
   margin: 1rem;
-  margin-top: 6rem;
   align-self: start;
 }
 
@@ -417,6 +413,22 @@ a.dropdown-item:active {
   border-radius: 15px;
   height: auto;
   width: 100%;
+}
+
+.grid-container .content .grid-row-1 {
+  width: 100%;
+  padding: 3rem;
+  display: inline-grid;
+  grid-template-columns: 3rem repeat(1fr) 3rem;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-container .content .grid-row-1 .grid-item-1 {
+  grid-column: 1/2;
+  grid-row: auto;
+  margin: 1rem;
 }
 
 .divider {
@@ -436,7 +448,7 @@ p.alert {
   background: rgba(255, 0, 0, 0.25);
   color: white;
   width: 100%;
-  height: 3em;
+  height: 2em;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -468,7 +480,6 @@ p.alertGood {
 .contactInfo {
   padding-top: 0.5rem;
   padding-bottom: 2rem;
-  padding-left: 4rem;
   margin-bottom: 5rem;
 }
 
@@ -478,10 +489,6 @@ p.alertGood {
 
 .contactInfo p {
   margin-left: 2rem;
-}
-
-.contactForm {
-  padding-left: 4rem;
 }
 
 .input-group {
@@ -556,6 +563,25 @@ p.alertGood {
 
 .technologiesBlock {
   text-align: left;
+}
+
+.bodyGrid {
+  grid-template-columns: 3.5rem 1fr;
+}
+
+.grid-container .content .grid-row-2 {
+  grid-template-columns: 1fr;
+}
+
+.grid-container .content .grid-row-2 .grid-item-1 {
+  grid-column: 1/2;
+  text-align: center;
+}
+
+.grid-container .content .grid-row-2 .grid-item-2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
 }
  
 

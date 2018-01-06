@@ -4,7 +4,7 @@ require('./common/config.php');
 include('./common/navBox.php');
 ?>
 
-<div class="content-wrap">
+<div class="grid-container">
     <div class="content">
         <div class='resume'>
             <div class="resumeHeader">
@@ -30,7 +30,7 @@ include('./common/navBox.php');
                 
                 <div class='resumeBlock secondBlock'>
                     <div class="resumeBlockHeader">Education</div>
-                    <div class="row"><div class="col-8"><h4>B.S. in Applied Computing Technology</h4></div> <div class='col-4 duration'>2015-2017</div> <div class="offset-1 location">Colorado State University</div></div>
+                    <div class="row"><div class="col-8"><h4>B.S. in Computer Science</h4></div> <div class='col-4 duration'>2015-2017</div> <div class="offset-1 location">Colorado State University</div></div>
                     <div class="row"><div class="col-8"><h4>Associates of Arts</h4></div><div class='col-4 duration'>2012-2015</div> <div class="offset-1 location"> Front Range Community College</div></div>
                     <div class="row"><div class="col-8"><h4>Programming Certification</h4></div> <div class='col-4 duration'>2012-2015 </div> <div class="offset-1 location">Front Range Community College</div></div>
                     <div class="row"><div class="col-8"><h4>Diploma</h4></div> <div class='col-4 duration'>2012-2015 </div> <div class="offset-1 location">Colorado Early College</div></div>

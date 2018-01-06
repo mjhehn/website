@@ -31,31 +31,18 @@ else
 {;}
 
 ?>
-<div class="content-wrap">
+<div class="grid-container">
     <div class="content">
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
+        <div class="grid-row-1">
+            <div class="grid-item-1">
                 <div class="contactHeader">
                     <p>Want to chat about one of your projects, my projects, the extended works of J.R.R. Tolkien, or just to give feedback on improving this website? Drop me a line at one of sources listed here or via the form.</p>
                 </div>
             </div>
         </div>
         <br>
-        <div class="row">
-            <div class="col-md-4 offset-md-1 flex-md-last flex-sm-first">
-                <h2>//Contact Info</h2>
-                <div class="contactInfo">
-                    <h3>Email</h3>
-                    <p>mjh@matthehn.com</p>
-                    <h3>Telephone</h3>
-                    <p>+1 (970) 460-6587</p>
-                    <h3>Skype</h3>
-                    <p>nin.eruantien</p>
-                    <h3>KeyBase</h3>
-                    <p><a href='https://keybase.io/arsene'>Arsene</a></p>
-                </div>
-            </div>
-            <div class="col-md-4 offset-md-2 flex-md-first flex-sm-last">
+        <div class="grid-row-2">
+            <div class="grid-item-1">
                 <h2>//Contact Form</h2>
                 <div class='contactForm'>
                     <form action="#" name="contactForm" method="post">
@@ -73,6 +60,19 @@ else
                         </div>
                         <button class="btn btn-primary" type="submit" name='submit' value="submit">Send</button>
                     </form>
+                </div>
+            </div>
+            <div class="grid-item-2">
+                <h2>//Contact Info</h2>
+                <div class="contactInfo">
+                    <h3>Email</h3>
+                    <p>mjh@matthehn.com</p>
+                    <h3>Telephone</h3>
+                    <p>+1 (970) 460-6587</p>
+                    <h3>Skype</h3>
+                    <p>nin.eruantien</p>
+                    <h3>KeyBase</h3>
+                    <p><a href='https://keybase.io/arsene'>Arsene</a></p>
                 </div>
             </div>
         </div>

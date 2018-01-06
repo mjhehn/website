@@ -4,7 +4,7 @@ require('../common/config.php');
 include('../common/navBox.php');
 ?>
 
-<div class="content-wrap">
+<div class="grid-container">
     <div class="content">
         <div class="row" style="text-align: center;">
             <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
