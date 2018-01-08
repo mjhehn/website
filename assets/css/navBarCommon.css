@@ -12,11 +12,7 @@
   padding-bottom: .8em;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-}
-
-.image-container:active {
-  justify-content: center;
+  text-align: center;
 }
 
 .miniFooter {
@@ -104,6 +100,4 @@ a.dropdown-item:active {
 }
 
 /*End of Header*/
- 
-
- /*# sourceMappingURL= navBarCommon.css.map */
+/*# sourceMappingURL=navBarCommon.css.map */

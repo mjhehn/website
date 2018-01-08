@@ -92,11 +92,7 @@ menu,
   padding-bottom: .8em;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-}
-
-.image-container:active {
-  justify-content: center;
+  text-align: center;
 }
 
 .miniFooter {
@@ -372,6 +368,4 @@ p.alertGood {
 .technologiesBlock {
   text-align: left;
 }
- 
-
- /*# sourceMappingURL= sidebar.css.map */
+/*# sourceMappingURL=sidebar.css.map */

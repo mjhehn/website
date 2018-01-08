@@ -284,11 +284,7 @@ menu a,
   padding-bottom: .8em;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-}
-
-.image-container:active {
-  justify-content: center;
+  text-align: center;
 }
 
 .miniFooter {
@@ -583,6 +579,4 @@ p.alertGood {
   grid-row: 1/2;
   text-align: center;
 }
- 
-
- /*# sourceMappingURL= slideout.css.map */
+/*# sourceMappingURL=slideout.css.map */
