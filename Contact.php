@@ -40,10 +40,9 @@ else
                 </div>
             </div>
         </div>
-        <br>
         <div class="grid-row-2">
             <div class="grid-item-1">
-                <h2>//Contact Form</h2>
+                <h2 class="contactFormHeader">//Contact Form</h2>
                 <div class='contactForm'>
                     <form action="#" name="contactForm" method="post">
                         <div class="input-group">
@@ -63,7 +62,7 @@ else
                 </div>
             </div>
             <div class="grid-item-2">
-                <h2>//Contact Info</h2>
+                <h2 class="contactFormHeader">//Contact Info</h2>
                 <div class="contactInfo">
                     <h3>Email</h3>
                     <p>mjh@matthehn.com</p>
