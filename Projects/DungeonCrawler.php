@@ -5,8 +5,8 @@ include('../common/navBox.php');
 ?>
 <div class="grid-container">
     <div class="content">
-        <div class="row" style="text-align: center;">
-                <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
+        <div class="grid-row-1" style="text-align: center;">
+                <div class="grid-item-1">
                     <br><br><br><h2>A simple Dungeon Crawler Game</h2><br>
                     <p style="text-align: left">
                         Built as part of a 24hr Hackathon at FRCC in C++ in 2014, and refined somewhat to be submitted as my final project that semester.
@@ -17,14 +17,6 @@ include('../common/navBox.php');
                     </p>
                 </div>
         </div>
-        <!--<div class="row" style="margin: .5em; text-align: center;">
-            <div class="offset-md-1 col-md-5">
-                <br><img class="img-fluid" src="AdvGame1.png" alt="The start of the adventure">
-            </div>
-            <div class="col-md-5">
-                <br><img class="img-fluid" src="AdvGame2.png" alt="The basic interaction of the game">
-            </div>
-        </div>--> 
 
         <div class="row justify-content-center">
             <div class="card card-inverse">

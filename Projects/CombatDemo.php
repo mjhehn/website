@@ -6,8 +6,8 @@ include('../common/navBox.php');
 
 <div class="grid-container">
     <div class="content">
-        <div class="row" style="text-align: center;">
-                <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
+        <div class="grid-row-1" style="text-align: center;">
+                <div class="grid-item-1">
                     <br><br><br><h2>A 'Combat Demo'</h2><br>
                     <p style="text-align: left">
                         Built as a project for fun in mid 2014, this was my first crack at trying to build a simple game with direct feedback from friends and others on the web in how to build out the systems.

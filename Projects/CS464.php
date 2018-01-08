@@ -6,8 +6,8 @@ include('../common/navBox.php');
 
 <div class="grid-container">
     <div class="content">
-        <div class="row" style="text-align: center;">
-            <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
+        <div class="grid-row-1" style="text-align: center;">
+            <div class="grid-item-1">
                 <br><br><br><h2>CS464 Contextual Design Concept</h2><br>
                 <p style="text-align: left">
                     Built as the course project for a contextual design class in a six-person group. This design was built for a set of users which act as a commerical 3D printing space while also renting use of their machines for a period. 

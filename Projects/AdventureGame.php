@@ -5,8 +5,8 @@ include('../common/navBox.php');
 ?>
 <div class="grid-container">
     <div class="content">
-        <div class="row" style="text-align: center;">
-                <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
+        <div class="grid-row-1" style="text-align: center;">
+                <div class="grid-item-1">
                     <br><br><br><h2>A simple Adventure Game</h2><br>
                     <p style="text-align: left">
                         Turned in as the final project of my very first programming/logic course in C++ in late 2013, but built mostly for fun. 

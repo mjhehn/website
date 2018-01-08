@@ -6,8 +6,8 @@ include('../common/navBox.php');
 
 <div class="grid-container">
     <div class="content">
-        <div class="row" style="text-align: center;">
-                <div class="col-md-10 offset-md-1 flex-md-last flex-xs-first">
+        <div class="grid-row-1" style="text-align: center;">
+                <div class="grid-item-1">
                     <br><br><br><h2>'Fat Tire' VR - RAMhack 2016</h2><br>
                     <p style="text-align: left">
                         Team Ballmer Peak's submission for Colorado State University's first Virtual Reality "RAMhack" hackathon. As per the guidelines of the hackathon and its contest, 'Fat Tire' was built by a five-person team over the course of 48 hours and was a concept promoting 'Scholarship, research, and community connection'.
@@ -17,8 +17,8 @@ include('../common/navBox.php');
                     </p>
                 </div>
         </div>
-        <div class="row" style="margin: .5em; text-align: center;">
-            <div class="offset-md-3 col-md-6">
+        <div class="grid-row-1" style="margin: .5em; text-align: center;">
+            <div class="grid-item-1">
                 <br><img class="img-fluid img-responsive" src="../assets/img/vrhack.jpg" alt="The start of the adventure">
             </div>
         </div>
