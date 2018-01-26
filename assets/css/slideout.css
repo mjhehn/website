@@ -573,6 +573,20 @@ p.alertGood {
   text-align: left;
 }
 
+.blogFooter {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 0.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
 .bodyGrid {
   grid-template-columns: 3.5rem 1fr;
 }

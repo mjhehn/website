@@ -48,7 +48,6 @@
                                 </div>
                                 <a class="accordionButton" id="funAccordion" role="tab" href="#funCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Fun <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                                 <div class="collapse" role="tabpanel" id="funCollapse" aria-labelled-by="funAccordion">
-                                    <!--<a class="dropdown-item" href=<?php echo $path."Projects/JPTR.php"?>>Project JPTR <i class="fa fa-code" aria-hidden="true"></i> </a>-->
                                     <a class="dropdown-item" href=<?php echo $path."Projects/CombatDemo.php"?>>Turn-based Combat <i class="fa fa-code" aria-hidden="true"></i> </a>
                                     <a class="dropdown-item" href=<?php echo $path."Projects/DungeonCrawler.php"?>>Dungeon Crawler <i class="fa fa-code" aria-hidden="true"></i> </a>
                                     <a class="dropdown-item" href=<?php echo $path."Projects/AdventureGame.php"?>>Text Adventure <i class="fa fa-code" aria-hidden="true"></i> </a>
@@ -56,17 +55,17 @@
                             </div>
                         <!-- <div class="sidebarLabel">Me</div>
                             <hr /> -->
+                            <!--<a class="nav-link" href=<?php echo $path."Blog.php"?>>Blog <i class="fa fa-newspaper-o" aria-hidden="true"></i></a>-->
                             <a class="nav-link" href=<?php echo $path."Resume.php"?>>Resume <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-                            <!--<a class="nav-link" href=<?php echo $path."Blog.php"?>>Blog <i class="fa fa-newspaper-o" aria-hidden="true"></i></a> -->
                             <a class="nav-link" href=<?php echo $path."Contact.php"?>>Contact <i class="fa fa-user" aria-hidden="true"></i></a>
                         </ul>
                         
                     </nav>
                     <div class="miniFooter">
                             <div class="minifooterContent">
-                                <a href="mailto:mjh@matthehn.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+                                <a href="mailto:me@matthehn.com" alt="Email Matt"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
                                 <a href="https://github.com/mjhehn" alt="Matt's Github"><i class="fa fa-github fa-lg" aria-hidden="true" ></i></a> 
-                                <small>&nbsp &copy; 2017 Matt Hehn</small>
+                                <small>&nbsp &copy; 2018 Matt Hehn</small>
                             </div>
                         </div>
                     <button class="close-button" id="close-button">Close Menu</button>
@@ -76,7 +75,7 @@
                 <div class="spacer"></div>
                 <button class="menu-button" id="open-button" alt="open menu" title="Menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
                 <a class="sideResumeButton" href=<?php echo $path."Resume.php"?> alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>
-                <!--<a class="sideBlogButton" href=<?php echo $path."Blog.php"?> alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a> -->
+                <!--<a class="sideBlogButton" href=<?php echo $path."Blog.php"?> alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a>-->
                 <a class="sideContactButton" href=<?php echo $path."Contact.php"?> alt="Contact Matt" title="Contact"><i class="fa fa-user fa-lg" aria-hidden="true" alt="Contact Matt"></i></a>
           
 

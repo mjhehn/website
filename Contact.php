@@ -10,7 +10,7 @@ if(isset($_POST['submit']))
         $content = filter_Var($_POST['message'], FILTER_SANITIZE_STRING);
         $contacteeName = filter_Var($_POST['name'], FILTER_SANITIZE_STRING);
         //echo $headers;
-        $addressees = "mjh@matthehn.com";
+        $addressees = "me@matthehn.com";
 
         if(mail($addressees, "matthehn.com contact: ".$contacteeName." has a message", $content))
         {
@@ -65,13 +65,13 @@ else
                 <h2 class="contactFormHeader">//Contact Info</h2>
                 <div class="contactInfo">
                     <h3>Email</h3>
-                    <p>mjh@matthehn.com</p>
+                    <p>me@matthehn.com</p>
                     <h3>Telephone</h3>
                     <p>+1 (970) 460-6587</p>
                     <h3>Skype</h3>
                     <p>nin.eruantien</p>
                     <h3>KeyBase</h3>
-                    <p><a href='https://keybase.io/arsene'>Arsene</a></p>
+                    <p><a href='https://keybase.io/mjhehn'>mjhehn</a></p>
                 </div>
             </div>
         </div>
