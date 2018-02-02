@@ -6,6 +6,7 @@ include('./common/navBox.php');
 
 <div class="grid-container">
     <div class="content">
+        <div style="margin-left: 2rem; margin-top: 1rem;"><a href="./MattHehnResumeWeb.pdf">pdf version</a></div>
         <div class='resume'>
             <div class="resumeHeader">
                 <div class="row">
@@ -15,7 +16,7 @@ include('./common/navBox.php');
                 </div>
                 <div class='resumeHeaderName'>Matt Hehn</div>
                 <div>Windsor, CO. United States</div>
-                <div>mjh@matthehn.com</div>
+                <div>me@matthehn.com</div>
             </div>
             <div class='resumeBody'>
                 <div class='resumeBlock firstBlock'>
@@ -77,6 +78,7 @@ include('./common/navBox.php');
                                 <li>Java Android Development</li>
                                 <li>SteamVR Platform</li>
                                 <li>Unreal Engine 4</li>
+                                <li>Unity3D Engine</li>
                             </ul>
                         </div>
                 </div>

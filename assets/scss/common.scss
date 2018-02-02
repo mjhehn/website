@@ -212,19 +212,45 @@ $resumeBlockHeight: 6em;
     }
 }
 
-.secondBlock{
+//*******************blog***************
+.blogHeader{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.backBlog{
+    padding-bottom: 2rem;
     
 }
 
-.technologiesBlock{
-    text-align: left;
+
+.blogEntryGrid{
+    width: 100%;
+    padding: 3rem;
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr); //work out a good spacing/padding for these, and justify content. center vertically.
+    grid-auto-rows: minmax(3rem, auto); 
+    justify-items:center;
+    align-items: center;
 }
 
-.achievementsBlock{
-
+.blogEntryTitle{
+    font-size: 2rem;
+    grid-column: 1/2;
+    white-space: nowrap;
+    grid-row: auto;
 }
 
-//*******************blog***************
+.blogEntryDate{
+    grid-column: 2/3;
+    font-size: 1.25rem;
+    align-items: right;
+    grid-row: auto;
+    padding-left: 0.5rem;
+}
+
 .blogFooter{
     position: absolute;
     bottom: 0;

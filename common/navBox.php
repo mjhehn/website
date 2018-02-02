@@ -42,7 +42,7 @@
                                 <hr /> -->
                                 <a class="accordionButton" id="academiaAccordion" role="tab" href="#academiaCollapse" data-toggle="collapse" data-parent="#accordionParent" aria-expanded="false">For Academia <i class="fa fa-caret-down" aria-hidden="true"></i></a>
                                 <div class="collapse" role="tabPanel" id="academiaCollapse" aria-labelled-by="academiaAccordion">
-                                    <a class="dropdown-item" href=<?php echo $path."Projects/LocalHost.php"?>>ASL VR <i class="fa fa-code" aria-hidden="true"></i> </a>
+                                    <a class="dropdown-item" href=<?php echo $path."Projects/LocalHost.php"?>>Sign Language VR <i class="fa fa-code" aria-hidden="true"></i> </a>
                                     <a class="dropdown-item" href=<?php echo $path."Projects/CS464.php"?>>CS464 UX Design <i class="fa fa-code" aria-hidden="true"></i> </a>
                                     <a class="dropdown-item" href=<?php echo $path."Projects/FatTireVR.php"?>>Fat Tire VR <i class="fa fa-code" aria-hidden="true"></i> </a>
                                 </div>
@@ -55,8 +55,9 @@
                             </div>
                         <!-- <div class="sidebarLabel">Me</div>
                             <hr /> -->
-                            <!--<a class="nav-link" href=<?php echo $path."Blog.php"?>>Blog <i class="fa fa-newspaper-o" aria-hidden="true"></i></a>-->
+                            
                             <a class="nav-link" href=<?php echo $path."Resume.php"?>>Resume <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+                            <a class="nav-link" href=<?php echo $path."Blog.php"?>>Blog <i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
                             <a class="nav-link" href=<?php echo $path."Contact.php"?>>Contact <i class="fa fa-user" aria-hidden="true"></i></a>
                         </ul>
                         
@@ -74,7 +75,7 @@
                 <!--Begin icon menu -->
                 <div class="spacer"></div>
                 <button class="menu-button" id="open-button" alt="open menu" title="Menu"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
-                <a class="sideResumeButton" href=<?php echo $path."Resume.php"?> alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>
+                <!--<a class="sideResumeButton" href=<?php echo $path."Resume.php"?> alt="Resume" title="Resume"><i class="fa fa-file-text-o" aria-hidden="true" alt="Resume"></i></a>-->
                 <!--<a class="sideBlogButton" href=<?php echo $path."Blog.php"?> alt="Blog" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true" alt="Blog"></i></a>-->
                 <a class="sideContactButton" href=<?php echo $path."Contact.php"?> alt="Contact Matt" title="Contact"><i class="fa fa-user fa-lg" aria-hidden="true" alt="Contact Matt"></i></a>
           

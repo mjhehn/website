@@ -3,7 +3,7 @@ $pageName="Matt's Alcove";
 require('./common/config.php');
 include('./common/navBox.php');
 ?>
-<p class=alert>Content updates and migration to CSS Grid in progress. Please pardon the dust.</p>
+<!--<p class=alert>Content updates and migration to CSS Grid in progress. Please pardon the dust.</p>-->
 <div class="grid-container">
     <div class="content">
         <div class="grid-row-2">
